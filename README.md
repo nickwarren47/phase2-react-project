@@ -1,1 +1,2 @@
 # phase2-react-project
+One stop shop for shortcuts, and snippets. This is intended to help new developers save time and become more efficient in their programming through leveraging powerful snippets/shortcuts which are traditionally difficult to find.
