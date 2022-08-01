@@ -2,863 +2,1332 @@
   "arrayOfShortCuts": [
     {
       "keyStroke": "Ctrl+Shift+P, F1",
-      "category": "General",
       "action": "Show Command Palette",
+      "category": "General",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+P",
-      "category": "General",
       "action": "Quick Open, Go to File…",
+      "category": "General",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+Shift+N",
-      "category": "General",
       "action": "New window/instance",
+      "category": "General",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+Shift+W",
-      "category": "General",
       "action": "Close window/instance",
+      "category": "General",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+Shift+N",
-      "category": "General",
       "action": "New window/instance",
+      "category": "General",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+Shift+W",
-      "category": "General",
       "action": "Close window/instance",
+      "category": "General",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+Shift+N",
-      "category": "General",
       "action": "New window/instance",
+      "category": "General",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+,",
-      "category": "General",
       "action": "User Settings",
+      "category": "General",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+K Ctrl+S",
-      "category": "General",
       "action": "Keyboard Shortcuts",
+      "category": "General",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+X",
-      "category": "Basic Editing",
       "action": "Cut line (empty selection)",
+      "category": "Basic Editing",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+C",
-      "category": "Basic Editing",
       "action": "Copy line (empty selection)",
+      "category": "Basic Editing",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Alt+ ↑ / ↓",
-      "category": "Basic Editing",
       "action": "Move line up/down",
+      "category": "Basic Editing",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Shift+Alt + ↓ / ↑",
-      "category": "Basic Editing",
       "action": "Copy line up/down",
+      "category": "Basic Editing",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+Shift+K",
-      "category": "Basic Editing",
       "action": "Delete line",
+      "category": "Basic Editing",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+Enter",
-      "category": "Basic Editing",
       "action": "Insert line below",
+      "category": "Basic Editing",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+Shift+Enter",
-      "category": "Basic Editing",
       "action": "Insert line above",
+      "category": "Basic Editing",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+Shift+\\",
-      "category": "Basic Editing",
       "action": "Jump to matching bracket",
+      "category": "Basic Editing",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+] / [ ",
-      "category": "Basic Editing",
       "action": "Indent/outdent line",
+      "category": "Basic Editing",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Home / End",
-      "category": "Basic Editing",
       "action": "Go to beginning/end of line",
+      "category": "Basic Editing",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+Home",
-      "category": "Basic Editing",
       "action": "Go to beginning of file",
+      "category": "Basic Editing",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     }, 
     {
       "keyStroke": "Ctrl+End",
-      "category": "Basic Editing",
       "action": "Go to end of file",
+      "category": "Basic Editing",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+↑ / ↓",
-      "category": "Basic Editing",
       "action": "Scroll line up/down",
+      "category": "Basic Editing",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Alt+PgUp / PgDn",
-      "category": "Basic Editing",
       "action": "Scroll page up/down",
+      "category": "Basic Editing",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+Shift+[ ",
-      "category": "Basic Editing",
       "action": "Fold (collapse) region",
+      "category": "Basic Editing",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+Shift+] ",
-      "category": "Basic Editing",
       "action": "Unfold (uncollapse) region",
+      "category": "Basic Editing",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+K Ctrl+[",
-      "category": "Basic Editing",
       "action": "Fold (collapse) all subregions",
+      "category": "Basic Editing",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+K Ctrl+]",
-      "category": "Basic Editing",
       "action": "Unfold (uncollapse) all subregions",
+      "category": "Basic Editing",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+K Ctrl+0",
-      "category": "Basic Editing",
       "action": "Fold (collapse) all regions",
+      "category": "Basic Editing",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+K Ctrl+J",
-      "category": "Basic Editing",
       "action": "Unfold (uncollapse) all regions",
+      "category": "Basic Editing",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+K Ctrl+C",
-      "category": "Basic Editing",
       "action": "Add line comment",
+      "category": "Basic Editing",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+K Ctrl+U",
-      "category": "Basic Editing",
       "action": "Remove line comment",
+      "category": "Basic Editing",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+/",
-      "category": "Basic Editing",
       "action": "Toggle line comment",
+      "category": "Basic Editing",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Shift+Alt+A",
-      "category": "Basic Editing",
       "action": "Toggle block comment",
+      "category": "Basic Editing",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Alt+Z",
-      "category": "Basic Editing",
       "action": "Toggle word wrap",
+      "category": "Basic Editing",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+T",
-      "category": "Navigation",
       "action": "Show all Symbols",
+      "category": "Navigation",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+G",
-      "category": "Navigation",
       "action": "Go to Line...",
+      "category": "Navigation",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+P ",
-      "category": "Navigation",
       "action": "Go to File...",
+      "category": "Navigation",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+Shift+O ",
-      "category": "Navigation",
       "action": "Go to Symbol...",
+      "category": "Navigation",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+Shift+M",
-      "category": "Navigation",
       "action": "Show Problems panel",
+      "category": "Navigation",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "F8",
-      "category": "Navigation",
       "action": "Go to next error or warning",
+      "category": "Navigation",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Shift+F8",
-      "category": "Navigation",
       "action": "Go to previous error or warning",
+      "category": "Navigation",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+Shift+Tab",
-      "category": "Navigation",
       "action": "Navigate editor group history",
+      "category": "Navigation",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Alt+ ← / →",
-      "category": "Navigation",
       "action": "Go back / forward",
+      "category": "Navigation",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+F",
-      "category": "Search and Replace",
       "action": "Find",
+      "category": "Search and Replace",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+H",
-      "category": "Search and Replace",
       "action": "Replace",
+      "category": "Search and Replace",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "F3 / Shift+F3",
-      "category": "Search and Replace",
       "action": "Find next/previous",
+      "category": "Search and Replace",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Alt+Enter",
-      "category": "Search and Replace",
       "action": "Select all occurences of Find match",
+      "category": "Search and Replace",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+D",
-      "category": "Search and Replace",
       "action": "Add selection to next Find match",
+      "category": "Search and Replace",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+K Ctrl+D",
-      "category": "Search and Replace",
       "action": "Move last selection to next Find match",
+      "category": "Search and Replace",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Alt+C / R / W",
-      "category": "Search and Replace",
       "action": "Toggle case-sensitive / regex / whole word",
+      "category": "Search and Replace",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Alt+Click",
-      "category": "Multi-cursor and selection",
       "action": "Insert cursor",
+      "category": "Multi-cursor and selection",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+Alt+ ↑ / ↓",
-      "category": "Multi-cursor and selection",
       "action": "Insert cursor above / below",
+      "category": "Multi-cursor and selection",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+U",
-      "category": "Multi-cursor and selection",
       "action": "Undo last cursor operation",
+      "category": "Multi-cursor and selection",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Shift+Alt+I",
-      "category": "Multi-cursor and selection",
       "action": "Insert cursor at end of each line selected",
+      "category": "Multi-cursor and selection",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+L",
-      "category": "Multi-cursor and selection",
       "action": "Select current line",
+      "category": "Multi-cursor and selection",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+Shift+L",
-      "category": "Multi-cursor and selection",
       "action": "Select all occurrences of current selection",
+      "category": "Multi-cursor and selection",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+F2",
-      "category": "Multi-cursor and selection",
       "action": "Select all occurrences of current word",
+      "category": "Multi-cursor and selection",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Shift+Alt+→",
-      "category": "Multi-cursor and selection",
       "action": "Expand selection",
+      "category": "Multi-cursor and selection",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Shift+Alt+←",
-      "category": "Multi-cursor and selection",
       "action": "Shrink selection",
+      "category": "Multi-cursor and selection",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Shift+Alt+(drag mouse)",
-      "category": "Multi-cursor and selection",
       "action": "Column (box) selection",
+      "category": "Multi-cursor and selection",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+Shift+Alt+(arrow key)",
-      "category": "Multi-cursor and selection",
       "action": "Column (box) selection",
+      "category": "Multi-cursor and selection",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+Shift+Alt+PgUp/PgDn",
-      "category": "Multi-cursor and selection",
       "action": "Column (box) selection page up/down",
+      "category": "Multi-cursor and selection",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+Space, Ctrl+I",
-      "category": "Rich languages editing",
       "action": "Trigger suggestion",
+      "category": "Rich languages editing",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+Shift+Space",
-      "category": "Rich languages editing",
       "action": "Trigger parameter hints",
+      "category": "Rich languages editing",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Shift+Alt+F",
-      "category": "Rich languages editing",
       "action": "Format document",
+      "category": "Rich languages editing",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+K Ctrl+F",
-      "category": "Rich languages editing",
       "action": "Format selection",
+      "category": "Rich languages editing",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "F12",
-      "category": "Rich languages editing",
       "action": "Go to Definition",
+      "category": "Rich languages editing",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Alt+F12",
-      "category": "Rich languages editing",
       "action": "Peek Definition",
+      "category": "Rich languages editing",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+K F12",
-      "category": "Rich languages editing",
       "action": "Open Definition to the side",
+      "category": "Rich languages editing",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+.",
-      "category": "Rich languages editing",
       "action": "Quick Fix",
+      "category": "Rich languages editing",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Shift+F12",
-      "category": "Rich languages editing",
       "action": "Show References",
+      "category": "Rich languages editing",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "F2",
-      "category": "Rich languages editing",
       "action": "Rename Symbol",
+      "category": "Rich languages editing",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+K Ctrl+X",
-      "category": "Rich languages editing",
       "action": "Trim trailing whitespace",
+      "category": "Rich languages editing",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+K M",
-      "category": "Rich languages editing",
       "action": "Change file language",
+      "category": "Rich languages editing",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+F4, Ctrl+W",
-      "category": "Editor management",
       "action": "Close editor",
+      "category": "Editor management",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+K F",
-      "category": "Editor management",
       "action": "Close folder",
+      "category": "Editor management",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+\\",
-      "category": "Editor management",
       "action": "Split editor",
+      "category": "Editor management",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+ 1 / 2 / 3",
-      "category": "Editor management",
       "action": "Focus into 1st, 2nd or 3rd editor group",
+      "category": "Editor management",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+K Ctrl+ ←/→",
-      "category": "Editor management",
       "action": "Focus into previous/next editor group",
+      "category": "Editor management",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+Shift+PgUp / PgDn",
-      "category": "Editor management",
       "action": "Move editor left/right",
+      "category": "Editor management",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+K ← / →",
-      "category": "Editor management",
       "action": "Move active editor group",
+      "category": "Editor management",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+N",
-      "category": "File management",
       "action": "New File",
+      "category": "File management",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+O",
-      "category": "File management",
       "action": "Open File...",
+      "category": "File management",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+S",
-      "category": "File management",
       "action": "Save",
+      "category": "File management",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+Shift+S",
-      "category": "File management",
       "action": "Save As...",
+      "category": "File management",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+K S",
-      "category": "File management",
       "action": "Save All",
+      "category": "File management",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+F4",
-      "category": "File management",
       "action": "Close",
+      "category": "File management",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+K Ctrl+W",
-      "category": "File management",
       "action": "Close All",
+      "category": "File management",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+Shift+T",
-      "category": "File management",
       "action": "Reopen closed editor",
+      "category": "File management",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+K Enter",
-      "category": "File management",
       "action": "Keep preview mode editor open",
+      "category": "File management",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+Tab",
-      "category": "File management",
       "action": "Open next",
+      "category": "File management",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+Shift+Tab",
-      "category": "File management",
       "action": "Open previous",
+      "category": "File management",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+K P",
-      "category": "File management",
       "action": "Copy path of active file",
+      "category": "File management",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+K R",
-      "category": "File management",
       "action": "Reveal active file in Explorer",
+      "category": "File management",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+K O",
-      "category": "File management",
       "action": "Show active file in new window/instance",
+      "category": "File management",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "F11",
-      "category": "Display",
       "action": "Toggle full screen",
+      "category": "Display",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Shift+Alt+0",
-      "category": "Display",
       "action": "Toggle editor layout (horizontal/vertical)",
+      "category": "Display",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+ = / -",
-      "category": "Display",
       "action": "Zoom in/out",
+      "category": "Display",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+B",
-      "category": "Display",
       "action": "Toggle Sidebar visibility",
+      "category": "Display",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+Shift+E",
-      "category": "Display",
       "action": "Show Explorer / Toggle focus",
+      "category": "Display",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+Shift+F",
-      "category": "Display",
       "action": "Show Search",
+      "category": "Display",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+Shift+G",
-      "category": "Display",
       "action": "Show Source Control",
+      "category": "Display",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+Shift+D ",
-      "category": "Display",
       "action": "Show Debug",
+      "category": "Display",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+Shift+X",
-      "category": "Display",
       "action": "Show Extensions",
+      "category": "Display",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+Shift+H",
-      "category": "Display",
       "action": "Replace in files",
+      "category": "Display",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+Shift+J",
-      "category": "Display",
       "action": "Toggle Search details",
+      "category": "Display",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+Shift+U",
-      "category": "Display",
       "action": "Show Output panel",
+      "category": "Display",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+Shift+V",
-      "category": "Display",
       "action": "Open Markdown preview",
+      "category": "Display",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+K V",
-      "category": "Display",
       "action": "Open Markdown preview to the side",
+      "category": "Display",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },    {
       "keyStroke": "Ctrl+K Z",
-      "category": "Display",
       "action": "Zen Mode (Esc Esc to exit)",
+      "category": "Display",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "F9",
-      "category": "Debug",
       "action": "Toggle breakpoint",
+      "category": "Debug",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "F5",
-      "category": "Debug",
       "action": "Start/Continue",
+      "category": "Debug",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Shift+F5",
-      "category": "Debug",
       "action": "Stop",
+      "category": "Debug",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "F11 / Shift+F11",
-      "category": "Debug",
       "action": "Step into/out",
+      "category": "Debug",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "F10",
-      "category": "Debug",
       "action": "Step over",
+      "category": "Debug",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+K Ctrl+I",
-      "category": "Debug",
       "action": "Show hover",
+      "category": "Debug",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+`",
-      "category": "Integrated terminal",
       "action": "Show integrated terminal",
+      "category": "Integrated terminal",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+Shift+`",
-      "category": "Integrated terminal",
       "action": "Create new terminal",
+      "category": "Integrated terminal",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+C",
-      "category": "Integrated terminal",
       "action": "Copy selection",
+      "category": "Integrated terminal",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+V",
-      "category": "Integrated terminal",
       "action": "Paste into active terminal",
+      "category": "Integrated terminal",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+↑ / ↓",
-      "category": "Integrated terminal",
       "action": "Scroll up/down",
+      "category": "Integrated terminal",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Shift+PgUp / PgDn",
-      "category": "Integrated terminal",
       "action": "Scroll page up/down",
+      "category": "Integrated terminal",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
       "keyStroke": "Ctrl+Home / End",
-      "category": "Integrated terminal",
       "action": "Scroll to top/bottom",
+      "category": "Integrated terminal",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+    },
+    {
+      "keyStroke": "⇧⌘P, F1",
+      "action": "Show Command Palette",
+      "category": "General",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "⌘P",
+      "action": "Quick Open, Go to File…",
+      "category": "General",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+    {
+      "keyStroke": "⇧⌘N",
+      "action": "New Window/instance",
+      "category": "General",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+    {
+      "keyStroke": "⌘W",
+      "action": "Close window/instance",
+      "category": "General",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+    {
+      "keyStroke": "⌘",
+      "action": "User Settings",
+      "category": "General",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+    {
+      "keyStroke": "⌘K ⌘S",
+      "action": "Keyboard Shortcuts",
+      "category": "General",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+    {
+      "keyStroke": "⌘X",
+      "action": "Cut line (empty selection)",
+      "category": "Basic Editing",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+    {
+      "keyStroke": "⌘C",
+      "action": "Copy line (empty selection)",
+      "category": "Basic Editing",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+    {
+      "keyStroke": "⌥↓ / ⌥↑",
+      "action": "Move line down/up",
+      "category": "Basic Editing",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+    {
+      "keyStroke": "⇧⌥↓ / ⇧⌥↑",
+      "action": "Copy line down/up",
+      "category": "Basic Editing",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+    {
+      "keyStroke": "⇧⌘K",
+      "action": "Delete line",
+      "category": "Basic Editing",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+    {
+      "keyStroke": "⌘Enter / ⇧⌘Enter",
+      "action": "Insert line below/above",
+      "category": "Basic Editing",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+    {
+      "keyStroke": "⇧⌘\\",
+      "action": "Jump to matching bracket",
+      "category": "Basic Editing",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+    {
+      "keyStroke": "⌘] / ⌘[",
+      "action": "Indent/outdent line",
+      "category": "Basic Editing",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+    {
+      "keyStroke": "Home / End ",
+      "action": "Go to beginning/end of line",
+      "category": "Basic Editing",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+    {
+      "keyStroke": "⌘↑ / ⌘↓",
+      "action": "Go to beginning/end of file",
+      "category": "Basic Editing",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+    {
+      "keyStroke": "⌃PgUp / ⌃PgDn ",
+      "action": "Scroll line up/down",
+      "category": "Basic Editing",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+    {
+      "keyStroke": "⌘PgUp /⌘PgDn",
+      "action": "Scroll page up/down",
+      "category": "Basic Editing",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+    {
+      "keyStroke": "⌥⌘[ / ⌥⌘] ",
+      "action": "Fold/unfold region",
+      "category": "Basic Editing",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+    {
+      "keyStroke": "⌘K ⌘[ / ⌘K ⌘]",
+      "action": "Fold/unfold all subregions",
+      "category": "Basic Editing",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+    {
+      "keyStroke": "⌘K ⌘0 / ⌘K ⌘J",
+      "action": "Fold/unfold all regions",
+      "category": "Basic Editing",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+    {
+      "keyStroke": "⌘K ⌘C",
+      "action": "Add line comment",
+      "category": "Basic Editing",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+    {
+      "keyStroke": "⌘K ⌘U ",
+      "action": "Remove line comment",
+      "category": "Basic Editing",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+    {
+      "keyStroke": "⌘/",
+      "action": "Toggle line comment",
+      "category": "Basic Editing",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+    {
+      "keyStroke": "⇧⌥A",
+      "action": "Toggle block comment",
+      "category": "Basic Editing",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+    {
+      "keyStroke": "⌥Z",
+      "action": "Toggle word wrap",
+      "category": "Basic Editing",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+    {
+      "keyStroke": "⌥ + click",
+      "action": "Insert cursor",
+      "category": "Multi-cursor and selection",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+   {
+      "keyStroke": "⌥⌘↑",
+      "action": "Insert cursor above",
+      "category": "Multi-cursor and selection",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+   {
+      "keyStroke": "⌥⌘↓",
+      "action": "Insert cursor below",
+      "category": "Multi-cursor and selection",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+   {
+      "keyStroke": "⌘U",
+      "action": "Undo last cursor operation",
+      "category": "Multi-cursor and selection",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+   {
+      "keyStroke": "⇧⌥I",
+      "action": "Insert cursor at end of each line selected",
+      "category": "Multi-cursor and selection",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+   {
+      "keyStroke": "⌘L",
+      "action": "Select current line",
+      "category": "Multi-cursor and selection",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+   {
+      "keyStroke": "⇧⌘L",
+      "action": "Select all occurrences of current selection",
+      "category": "Multi-cursor and selection",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+   {
+      "keyStroke": "⌘F2",
+      "action": "Select all occurrences of current word",
+      "category": "Multi-cursor and selection",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+   {
+      "keyStroke": "⌃⇧⌘→ / ←",
+      "action": "Expand / shrink selection",
+      "category": "Multi-cursor and selection",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+   {
+      "keyStroke": "⇧⌥ + drag mouse",
+      "action": "Column (box) selection",
+      "category": "Multi-cursor and selection",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+   {
+      "keyStroke": "⇧⌥⌘↑ / ↓",
+      "action": "Column (box) selection up/down",
+      "category": "Multi-cursor and selection",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+   {
+      "keyStroke": "⇧⌥⌘← / →",
+      "action": "Column (box) selection left/right",
+      "category": "Multi-cursor and selection",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+   {
+      "keyStroke": "⇧⌥⌘PgUp",
+      "action": "Column (box) selection page up",
+      "category": "Multi-cursor and selection",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+   {
+      "keyStroke": "⇧⌥⌘PgDn",
+      "action": "Column (box) selection page down",
+      "category": "Multi-cursor and selection",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+   {
+      "keyStroke": "⌘F",
+      "action": "Find",
+      "category": "Search and replace",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+   {
+      "keyStroke": "⌥⌘F",
+      "action": "Replace",
+      "category": "Search and replace",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+   {
+      "keyStroke": "⌘G / ⇧⌘G",
+      "action": "Find next/previous",
+      "category": "Search and replace",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+   {
+      "keyStroke": "⌥Enter",
+      "action": "Select all occurrences of Find match",
+      "category": "Search and replace",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+   {
+      "keyStroke": "⌘D",
+      "action": "Add selection to next Find match",
+      "category": "Search and replace",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+   {
+      "keyStroke": "⌘K ⌘D",
+      "action": "Move last selection to next Find match",
+      "category": "Search and replace",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+   {
+      "keyStroke": "⌃Space, ⌘I",
+      "action": "Trigger suggestion",
+      "category": "Rich languages editing",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+   {
+      "keyStroke": "⇧⌘Space",
+      "action": "Trigger parameter hints",
+      "category": "Rich languages editing",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+   {
+      "keyStroke": "⇧⌥F",
+      "action": "Format document",
+      "category": "Rich languages editing",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+   {
+      "keyStroke": "⌘K ⌘F",
+      "action": "Format selection",
+      "category": "Rich languages editing",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+   {
+      "keyStroke": "F12",
+      "action": "Go to Definition",
+      "category": "Rich languages editing",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+   {
+      "keyStroke": "⌥F12",
+      "action": "Peek Definition",
+      "category": "Rich languages editing",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+   {
+      "keyStroke": "⌘K F12",
+      "action": "Open Definition to the side",
+      "category": "Rich languages editing",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+   {
+      "keyStroke": "⌘.",
+      "action": "Quick Fix",
+      "category": "Rich languages editing",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+   {
+      "keyStroke": "⇧F12",
+      "action": "Show References",
+      "category": "Rich languages editing",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+   {
+      "keyStroke": "F2",
+      "action": "Rename Symbol",
+      "category": "Rich languages editing",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+   {
+      "keyStroke": "⌘K ⌘X",
+      "action": "Trim trailing whitespace",
+      "category": "Rich languages editing",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+   {
+      "keyStroke": "⌘K M",
+      "action": "Change file language",
+      "category": "Rich languages editing",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+   {
+      "keyStroke": "⌘T",
+      "action": "Show all Symbols",
+      "category": "Navigation",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+   {
+      "keyStroke": "⌃G",
+      "action": "Go to Line...",
+      "category": "Navigation",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+   {
+      "keyStroke": "⌘P",
+      "action": "Go to File...",
+      "category": "Navigation",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+   {
+      "keyStroke": "⇧⌘O",
+      "action": "Go to Symbol...",
+      "category": "Navigation",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+   {
+      "keyStroke": "⇧⌘M",
+      "action": "Show Problems panel",
+      "category": "Navigation",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+   {
+      "keyStroke": "F8 / ⇧F8",
+      "action": "Go to next/previous error or warning",
+      "category": "Navigation",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+   {
+      "keyStroke": "⌃⇧Tab",
+      "action": "Navigate editor group history",
+      "category": "Navigation",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+   {
+      "keyStroke": "⌃- / ⌃⇧-",
+      "action": "Go back/forward",
+      "category": "Navigation",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+    },
+   {
+      "keyStroke": "⌃⇧M",
+      "action": "Toggle Tab moves focus",
+      "category": "Navigation",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
     }
   ],
   "arrayOfSnippets": [
