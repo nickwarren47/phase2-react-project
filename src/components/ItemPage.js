@@ -2,22 +2,20 @@ import React, { useEffect, useState } from "react";
 import ItemCollection from "./ItemCollection";
 import ItemForm from "./ItemForm";
 import Search from "./Search";
-import { Container } from "semantic-ui-react";
 
 function ItemPage() {
 
   return (
-    <Container>
+    <>
       <h1>Item Searcher</h1>
       <br />
-      <ItemForm pokeUrl={pokeUrl}/>
+      <ItemForm />
       <br />
-      <Search onSearchChange={handleSearch}/>
+      <Search />
       <br />
       <ItemCollection 
-        ItemArraySearch={ItemToDisplay}
       />
-    </Container>
+    </>
   );
 }
 
