@@ -872,462 +872,462 @@
       "action": "Quick Open, Go to File…",
       "category": "General",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
       "keyStroke": "⇧⌘N",
       "action": "New Window/instance",
       "category": "General",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
       "keyStroke": "⌘W",
       "action": "Close window/instance",
       "category": "General",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
       "keyStroke": "⌘",
       "action": "User Settings",
       "category": "General",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
       "keyStroke": "⌘K ⌘S",
       "action": "Keyboard Shortcuts",
       "category": "General",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
       "keyStroke": "⌘X",
       "action": "Cut line (empty selection)",
       "category": "Basic Editing",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
       "keyStroke": "⌘C",
       "action": "Copy line (empty selection)",
       "category": "Basic Editing",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
       "keyStroke": "⌥↓ / ⌥↑",
       "action": "Move line down/up",
       "category": "Basic Editing",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
       "keyStroke": "⇧⌥↓ / ⇧⌥↑",
       "action": "Copy line down/up",
       "category": "Basic Editing",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
       "keyStroke": "⇧⌘K",
       "action": "Delete line",
       "category": "Basic Editing",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
       "keyStroke": "⌘Enter / ⇧⌘Enter",
       "action": "Insert line below/above",
       "category": "Basic Editing",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
       "keyStroke": "⇧⌘\\",
       "action": "Jump to matching bracket",
       "category": "Basic Editing",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
       "keyStroke": "⌘] / ⌘[",
       "action": "Indent/outdent line",
       "category": "Basic Editing",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
       "keyStroke": "Home / End ",
       "action": "Go to beginning/end of line",
       "category": "Basic Editing",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
       "keyStroke": "⌘↑ / ⌘↓",
       "action": "Go to beginning/end of file",
       "category": "Basic Editing",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
       "keyStroke": "⌃PgUp / ⌃PgDn ",
       "action": "Scroll line up/down",
       "category": "Basic Editing",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
       "keyStroke": "⌘PgUp /⌘PgDn",
       "action": "Scroll page up/down",
       "category": "Basic Editing",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
       "keyStroke": "⌥⌘[ / ⌥⌘] ",
       "action": "Fold/unfold region",
       "category": "Basic Editing",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
       "keyStroke": "⌘K ⌘[ / ⌘K ⌘]",
       "action": "Fold/unfold all subregions",
       "category": "Basic Editing",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
       "keyStroke": "⌘K ⌘0 / ⌘K ⌘J",
       "action": "Fold/unfold all regions",
       "category": "Basic Editing",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
       "keyStroke": "⌘K ⌘C",
       "action": "Add line comment",
       "category": "Basic Editing",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
       "keyStroke": "⌘K ⌘U ",
       "action": "Remove line comment",
       "category": "Basic Editing",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
       "keyStroke": "⌘/",
       "action": "Toggle line comment",
       "category": "Basic Editing",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
       "keyStroke": "⇧⌥A",
       "action": "Toggle block comment",
       "category": "Basic Editing",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
       "keyStroke": "⌥Z",
       "action": "Toggle word wrap",
       "category": "Basic Editing",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
       "keyStroke": "⌥ + click",
       "action": "Insert cursor",
       "category": "Multi-cursor and selection",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
       "keyStroke": "⌥⌘↑",
       "action": "Insert cursor above",
       "category": "Multi-cursor and selection",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
       "keyStroke": "⌥⌘↓",
       "action": "Insert cursor below",
       "category": "Multi-cursor and selection",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
       "keyStroke": "⌘U",
       "action": "Undo last cursor operation",
       "category": "Multi-cursor and selection",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
       "keyStroke": "⇧⌥I",
       "action": "Insert cursor at end of each line selected",
       "category": "Multi-cursor and selection",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
       "keyStroke": "⌘L",
       "action": "Select current line",
       "category": "Multi-cursor and selection",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
       "keyStroke": "⇧⌘L",
       "action": "Select all occurrences of current selection",
       "category": "Multi-cursor and selection",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
       "keyStroke": "⌘F2",
       "action": "Select all occurrences of current word",
       "category": "Multi-cursor and selection",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
       "keyStroke": "⌃⇧⌘→ / ←",
       "action": "Expand / shrink selection",
       "category": "Multi-cursor and selection",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
       "keyStroke": "⇧⌥ + drag mouse",
       "action": "Column (box) selection",
       "category": "Multi-cursor and selection",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
       "keyStroke": "⇧⌥⌘↑ / ↓",
       "action": "Column (box) selection up/down",
       "category": "Multi-cursor and selection",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
       "keyStroke": "⇧⌥⌘← / →",
       "action": "Column (box) selection left/right",
       "category": "Multi-cursor and selection",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
       "keyStroke": "⇧⌥⌘PgUp",
       "action": "Column (box) selection page up",
       "category": "Multi-cursor and selection",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
       "keyStroke": "⇧⌥⌘PgDn",
       "action": "Column (box) selection page down",
       "category": "Multi-cursor and selection",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
       "keyStroke": "⌘F",
       "action": "Find",
       "category": "Search and replace",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
       "keyStroke": "⌥⌘F",
       "action": "Replace",
       "category": "Search and replace",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
       "keyStroke": "⌘G / ⇧⌘G",
       "action": "Find next/previous",
       "category": "Search and replace",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
       "keyStroke": "⌥Enter",
       "action": "Select all occurrences of Find match",
       "category": "Search and replace",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
       "keyStroke": "⌘D",
       "action": "Add selection to next Find match",
       "category": "Search and replace",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
       "keyStroke": "⌘K ⌘D",
       "action": "Move last selection to next Find match",
       "category": "Search and replace",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
       "keyStroke": "⌃Space, ⌘I",
       "action": "Trigger suggestion",
       "category": "Rich languages editing",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
       "keyStroke": "⇧⌘Space",
       "action": "Trigger parameter hints",
       "category": "Rich languages editing",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
       "keyStroke": "⇧⌥F",
       "action": "Format document",
       "category": "Rich languages editing",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
       "keyStroke": "⌘K ⌘F",
       "action": "Format selection",
       "category": "Rich languages editing",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
       "keyStroke": "F12",
       "action": "Go to Definition",
       "category": "Rich languages editing",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
       "keyStroke": "⌥F12",
       "action": "Peek Definition",
       "category": "Rich languages editing",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
       "keyStroke": "⌘K F12",
       "action": "Open Definition to the side",
       "category": "Rich languages editing",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
       "keyStroke": "⌘.",
       "action": "Quick Fix",
       "category": "Rich languages editing",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
       "keyStroke": "⇧F12",
       "action": "Show References",
       "category": "Rich languages editing",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
       "keyStroke": "F2",
       "action": "Rename Symbol",
       "category": "Rich languages editing",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
       "keyStroke": "⌘K ⌘X",
       "action": "Trim trailing whitespace",
       "category": "Rich languages editing",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
       "keyStroke": "⌘K M",
       "action": "Change file language",
       "category": "Rich languages editing",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
       "keyStroke": "⌘T",
       "action": "Show all Symbols",
       "category": "Navigation",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
       "keyStroke": "⌃G",
       "action": "Go to Line...",
       "category": "Navigation",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
       "keyStroke": "⌘P",
       "action": "Go to File...",
       "category": "Navigation",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
       "keyStroke": "⇧⌘O",
       "action": "Go to Symbol...",
       "category": "Navigation",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
       "keyStroke": "⇧⌘M",
       "action": "Show Problems panel",
       "category": "Navigation",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
       "keyStroke": "F8 / ⇧F8",
       "action": "Go to next/previous error or warning",
       "category": "Navigation",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
       "keyStroke": "⌃⇧Tab",
       "action": "Navigate editor group history",
       "category": "Navigation",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
       "keyStroke": "⌃- / ⌃⇧-",
       "action": "Go back/forward",
       "category": "Navigation",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
       "keyStroke": "⌃⇧M",
       "action": "Toggle Tab moves focus",
       "category": "Navigation",
       "worksIn": "MacOS",
-      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
       "keyStroke": "Ctrl+Shift+P, F1",
