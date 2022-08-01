@@ -22,8 +22,8 @@ function ItemPage() {
 
   const shortCutsToDisplay = shortCuts.filter((shortCut) => shortCut.action.toLowerCase().includes(searchQuery.toLowerCase()))
  
-  function handleSearchQuery(e){
-    setSearchQuery(e.target.value)
+  function handleSearchQuery(event){
+    setSearchQuery(event.target.value)
   }
 
   return (

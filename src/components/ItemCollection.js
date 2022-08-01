@@ -17,7 +17,7 @@ function ItemCollection({shortCuts, snippets}) {
     )
   return (
     <div>
-      {searchShortCuts}
+      {searchShortCuts()}
     </div>
     )
 }
