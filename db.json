@@ -1,0 +1,24 @@
+{
+  "arrayOfShortCuts": [
+    {
+      "keyStroke": "⌘X",
+      "action": "Cut line (empty selection)",
+      "worksIn": "MacOS with VSCode",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": ""
+    }
+  ],
+  "arrayOfSnippets": [
+    {
+      "prefix": "RFCE",
+      "action": "type RFCE, hit return to generate a function React component with export       default at the bottom",
+      "worksIn": "ES7 with Babel plugin for VSCode",
+      "Source": "https://www.codegrepper.com/code-examples/javascript/rfce+snippet+in+react"
+    },
+    {
+      "prefix": ""
+    }
+  ]
+}
