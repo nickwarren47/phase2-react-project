@@ -1,5 +1,5 @@
 import React from "react";
-import ItemPage from "./ItemnPage";
+import ItemPage from "./ItemPage";
 
 function App() {
 
