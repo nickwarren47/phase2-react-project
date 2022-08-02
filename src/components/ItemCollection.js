@@ -1,11 +1,17 @@
-import React from "react";
+import React, {useState} from "react";
 import ShortcutCard from "./ShortcutCard";
 import SnippetCard from "./SnippetCard";
 // import ToggleKeys from "./ToggleKeys";
 
-function ItemCollection({shortCuts, snippets}) {
+function ItemCollection({shortCuts, snippets, handleToggle}) {
     // console.log(shortCuts)
-  const searchShortCuts = () => (
+    const [toggle, setToggle] = useState(false)
+
+    const handleToggle = () => {
+      setToggle(!toggle)
+    }
+  
+    const searchShortCuts = () => (
     shortCuts.map((shortCut) => (
       <ShortcutCard 
         keyStroke={shortCut.keyStroke}

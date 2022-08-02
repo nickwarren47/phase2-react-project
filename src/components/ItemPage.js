@@ -7,7 +7,6 @@ function ItemPage() {
   const [snippets, setSnippets] = useState([])
   const [searchQuery, setSearchQuery] = useState("")
   const [selectedCategory, setSelectedCategory] = useState("All");
-  const [toggle, setToggle] = useState(false)
 
   useEffect(() => {
     fetch('http://localhost:3000/arrayOfShortCuts')
@@ -23,10 +22,6 @@ function ItemPage() {
 
   function handleCategoryChange(e) {
     setSelectedCategory(e.target.value);
-  }
-
-  const handleToggle = (e) => {
-    console.log(e.target)
   }
 
   const shortCutsToDisplay = shortCuts
@@ -48,7 +43,6 @@ function ItemPage() {
       />
       <ItemCollection snippets={snippetsToDisplay} 
         shortCuts={shortCutsToDisplay} 
-        handleToggle={handleToggle}
       />
     </div>
   );
