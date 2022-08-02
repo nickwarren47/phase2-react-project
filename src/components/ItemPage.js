@@ -7,6 +7,7 @@ function ItemPage() {
   const [snippets, setSnippets] = useState([])
   const [searchQuery, setSearchQuery] = useState("")
   const [selectedCategory, setSelectedCategory] = useState("All");
+  const [toggle, setToggle] = useState(false)
 
   useEffect(() => {
     fetch('http://localhost:3000/arrayOfShortCuts')
@@ -24,18 +25,30 @@ function ItemPage() {
     setSelectedCategory(e.target.value);
   }
 
+  const handleToggle = (e) => {
+    console.log(e.target)
+  }
+
   const shortCutsToDisplay = shortCuts
   .filter((shortCut) => selectedCategory === "All" || shortCut.category === selectedCategory)
   .filter((shortCut) => shortCut.action.toLowerCase().includes(searchQuery.toLowerCase()))
+
+  const snippetsToDisplay = snippets
+  .filter((snippets) => snippets.action.toLowerCase().includes(searchQuery.toLowerCase()))
  
   function handleSearchQuery(event){
     setSearchQuery(event.target.value)
   }
 
+
   return (
     <div>
-      <SubHeader handleSearchQuery={handleSearchQuery} onCategoryChange={handleCategoryChange}/>
-      <ItemCollection snippets={snippets} shortCuts={shortCutsToDisplay} 
+      <SubHeader handleSearchQuery={handleSearchQuery} 
+        onCategoryChange={handleCategoryChange}
+      />
+      <ItemCollection snippets={snippetsToDisplay} 
+        shortCuts={shortCutsToDisplay} 
+        handleToggle={handleToggle}
       />
     </div>
   );

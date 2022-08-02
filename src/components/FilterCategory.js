@@ -4,18 +4,18 @@ function FilterCategory({onCategoryChange}) {
   return (
     <div>
         <select name="filter" onChange={onCategoryChange}>
-          <option>Select category</option>
-          <option>General</option>
-          <option>Basic editing</option>
-          <option>Multi-cursor and selection</option>
-          <option>Search and replace</option>
-          <option>Rich languages editing</option>
-          <option>Navigation</option>
-          <option>Editor management</option>
-          <option>File management</option>
-          <option>Display</option>
-          <option>Debug</option>
-          <option>Integrated terminal</option>
+          <option value="All">Select category</option>
+          <option value="General">General</option>
+          <option value="Basic Editing">Basic editing</option>
+          <option value="Multi-cursor and selection">Multi-cursor and selection</option>
+          <option value="Search and replace">Search and replace</option>
+          <option value="Rich languages editing">Rich languages editing</option>
+          <option value="Navigation">Navigation</option>
+          <option value="Editor management">Editor management</option>
+          <option value="File management">File management</option>
+          <option value="Display">Display</option>
+          <option value="Debug">Debug</option>
+          <option value="Integrated Terminal">Integrated terminal</option>
         </select>
     </div>
   )
