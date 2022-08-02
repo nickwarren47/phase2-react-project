@@ -1330,6 +1330,335 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "keyStroke": "⌘W",
+      "action": "Close editor",
+      "category": "Editor management",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "⌘K F ",
+      "action": "Close folder",
+      "category": "Editor management",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "⌘\\",
+      "action": "Split editor",
+      "category": "Editor management",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "⌘1 / ⌘2 / ⌘3",
+      "action": "Focus into 1st 2nd 3rd editor group",
+      "category": "Editor management",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "⌘K ⌘← / ⌘K ⌘→",
+      "action": "Focus into previous/next editor group",
+      "category": "Editor management",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "⌘K ⇧⌘← / ⌘K ⇧⌘→",
+      "action": "Move editor left/right",
+      "category": "Editor management",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "⌘K ← / ⌘K →",
+      "action": "Move active editor group",
+      "category": "Editor management",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "⌘N",
+      "action": "New File",
+      "category": "File management",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "⌘O",
+      "action": "Open File...",
+      "category": "File management",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "⌘S",
+      "action": "Save",
+      "category": "File management",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "⇧⌘S",
+      "action": "Save As...",
+      "category": "File management",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "⌥⌘S",
+      "action": "Save All",
+      "category": "File management",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "⌘W",
+      "action": "Close",
+      "category": "File management",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "⌘K ⌘W",
+      "action": "Close All",
+      "category": "File management",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "⇧⌘T",
+      "action": "Reopen closed editor",
+      "category": "File management",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "⌘K Enter",
+      "action": "Keep preview mode editor open",
+      "category": "File management",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "⌃Tab / ⌃⇧Tab",
+      "action": "Open next / previous",
+      "category": "File management",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "⌘K P",
+      "action": "Copy path of active file",
+      "category": "File management",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "⌘K R",
+      "action": "Reveal active file in Finder",
+      "category": "File management",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "⌘K O",
+      "action": "Show active file in new window/instance",
+      "category": "File management",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "⌃⌘F",
+      "action": "Toggle full screen",
+      "category": "Display",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "⌥⌘0",
+      "action": "Toggle editor layout (horizontal/vertical)",
+      "category": "Display",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "⌘= / ⇧⌘-",
+      "action": "Zoom in/out",
+      "category": "Display",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "⌘B",
+      "action": "Toggle Sidebar visibility",
+      "category": "Display",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "⇧⌘E",
+      "action": "Show Explorer / Toggle focus",
+      "category": "Display",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "⇧⌘F",
+      "action": "Show Search",
+      "category": "Display",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "⌃⇧G",
+      "action": "Show Source Control",
+      "category": "Display",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "⇧⌘D",
+      "action": "Show Debug",
+      "category": "Display",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "⇧⌘X",
+      "action": "Show Extensions",
+      "category": "Display",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "⇧⌘H",
+      "action": "Replace in files",
+      "category": "Display",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "⇧⌘J",
+      "action": "Toggle Search details",
+      "category": "Display",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "⇧⌘U",
+      "action": "Show Output panel",
+      "category": "Display",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "⇧⌘V",
+      "action": "Open Markdown preview",
+      "category": "Display",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "⌘K V",
+      "action": "Open Markdown preview to the side",
+      "category": "Display",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "⌘K Z",
+      "action": "Zen Mode (Esc Esc to exit)",
+      "category": "Display",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "F9",
+      "action": "Toggle breakpoint",
+      "category": "Debug",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "F5",
+      "action": "Start/Continue",
+      "category": "Debug",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "F11 / ⇧F11",
+      "action": "Step into/ out",
+      "category": "Debug",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "F10",
+      "action": "Step over",
+      "category": "Debug",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "⇧F5",
+      "action": "Stop",
+      "category": "Debug",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "⌘K ⌘I",
+      "action": "Show hover",
+      "category": "Debug",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "⌃`",
+      "action": "Show integrated terminal",
+      "category": "Integrated Terminal",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "⌃⇧`",
+      "action": "Create new terminal",
+      "category": "Integrated Terminal",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "⌘C",
+      "action": "Copy selection",
+      "category": "Integrated Terminal",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "⌘↑ / ↓",
+      "action": "Scroll up/down",
+      "category": "Integrated Terminal",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "PgUp / PgDn",
+      "action": "Scroll page up/down",
+      "category": "Integrated Terminal",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
+      "keyStroke": "⌘Home / End",
+      "action": "Scroll to top/bottom",
+      "category": "Integrated Terminal",
+      "worksIn": "MacOS",
+      "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+    },
+    {
       "keyStroke": "Ctrl+Shift+P, F1",
       "action": "Show Command Palette",
       "category": "General",
