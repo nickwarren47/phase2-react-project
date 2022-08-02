@@ -4,6 +4,7 @@ import Header from "./Header";
 import Home from "./Home";
 import MacOS from "./MacOS";
 import {Route, Switch } from "react-router-dom";
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
 
