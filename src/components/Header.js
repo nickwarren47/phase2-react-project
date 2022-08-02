@@ -21,6 +21,16 @@ function Header(){
                 </span>
             </h1>
             <NavLink
+                to="/Home"
+                exact
+                style={linkStyles}
+                activeStyle={{
+                background: "darkblue",
+                }}
+            >
+                Home
+            </NavLink>
+            <NavLink
                 to="/MacOS"
                 exact
                 style={linkStyles}
