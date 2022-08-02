@@ -1,10 +1,12 @@
 import React from "react";
 
-function ItemForm({ }) {
+function ItemForm() {
 
   return (
     <div>
-      <h3>Add a stuff!</h3>
+        <button>
+          Add new keys
+        </button>
     </div>
   );
 }

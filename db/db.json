@@ -1,6 +1,7 @@
 {
   "arrayOfShortCuts": [
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+P, F1",
       "action": "Show Command Palette",
       "category": "General",
@@ -8,6 +9,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+P",
       "action": "Quick Open, Go to File…",
       "category": "General",
@@ -15,6 +17,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+N",
       "action": "New window/instance",
       "category": "General",
@@ -22,6 +25,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+W",
       "action": "Close window/instance",
       "category": "General",
@@ -29,6 +33,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+N",
       "action": "New window/instance",
       "category": "General",
@@ -36,6 +41,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+W",
       "action": "Close window/instance",
       "category": "General",
@@ -43,6 +49,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+N",
       "action": "New window/instance",
       "category": "General",
@@ -50,13 +57,15 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
-      "keyStroke": "Ctrl+,",
+      "id": "test",
+      "keyStroke": "Ctrl+",
       "action": "User Settings",
       "category": "General",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K Ctrl+S",
       "action": "Keyboard Shortcuts",
       "category": "General",
@@ -64,6 +73,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+X",
       "action": "Cut line (empty selection)",
       "category": "Basic Editing",
@@ -71,6 +81,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+C",
       "action": "Copy line (empty selection)",
       "category": "Basic Editing",
@@ -78,6 +89,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Alt+ ↑ / ↓",
       "action": "Move line up/down",
       "category": "Basic Editing",
@@ -85,6 +97,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Shift+Alt + ↓ / ↑",
       "action": "Copy line up/down",
       "category": "Basic Editing",
@@ -92,6 +105,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+K",
       "action": "Delete line",
       "category": "Basic Editing",
@@ -99,6 +113,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Enter",
       "action": "Insert line below",
       "category": "Basic Editing",
@@ -106,6 +121,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+Enter",
       "action": "Insert line above",
       "category": "Basic Editing",
@@ -113,6 +129,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+\\",
       "action": "Jump to matching bracket",
       "category": "Basic Editing",
@@ -120,6 +137,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+] / [ ",
       "action": "Indent/outdent line",
       "category": "Basic Editing",
@@ -127,6 +145,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Home / End",
       "action": "Go to beginning/end of line",
       "category": "Basic Editing",
@@ -134,6 +153,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Home",
       "action": "Go to beginning of file",
       "category": "Basic Editing",
@@ -141,6 +161,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     }, 
     {
+      "id": "test",
       "keyStroke": "Ctrl+End",
       "action": "Go to end of file",
       "category": "Basic Editing",
@@ -148,6 +169,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+↑ / ↓",
       "action": "Scroll line up/down",
       "category": "Basic Editing",
@@ -155,6 +177,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Alt+PgUp / PgDn",
       "action": "Scroll page up/down",
       "category": "Basic Editing",
@@ -162,6 +185,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+[ ",
       "action": "Fold (collapse) region",
       "category": "Basic Editing",
@@ -169,6 +193,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+] ",
       "action": "Unfold (uncollapse) region",
       "category": "Basic Editing",
@@ -176,6 +201,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K Ctrl+[",
       "action": "Fold (collapse) all subregions",
       "category": "Basic Editing",
@@ -183,6 +209,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K Ctrl+]",
       "action": "Unfold (uncollapse) all subregions",
       "category": "Basic Editing",
@@ -190,6 +217,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K Ctrl+0",
       "action": "Fold (collapse) all regions",
       "category": "Basic Editing",
@@ -197,6 +225,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K Ctrl+J",
       "action": "Unfold (uncollapse) all regions",
       "category": "Basic Editing",
@@ -204,6 +233,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K Ctrl+C",
       "action": "Add line comment",
       "category": "Basic Editing",
@@ -211,6 +241,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K Ctrl+U",
       "action": "Remove line comment",
       "category": "Basic Editing",
@@ -218,6 +249,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+/",
       "action": "Toggle line comment",
       "category": "Basic Editing",
@@ -225,6 +257,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Shift+Alt+A",
       "action": "Toggle block comment",
       "category": "Basic Editing",
@@ -232,6 +265,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Alt+Z",
       "action": "Toggle word wrap",
       "category": "Basic Editing",
@@ -239,6 +273,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+T",
       "action": "Show all Symbols",
       "category": "Navigation",
@@ -246,6 +281,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+G",
       "action": "Go to Line...",
       "category": "Navigation",
@@ -253,6 +289,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+P ",
       "action": "Go to File...",
       "category": "Navigation",
@@ -260,6 +297,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+O ",
       "action": "Go to Symbol...",
       "category": "Navigation",
@@ -267,6 +305,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+M",
       "action": "Show Problems panel",
       "category": "Navigation",
@@ -274,6 +313,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "F8",
       "action": "Go to next error or warning",
       "category": "Navigation",
@@ -281,6 +321,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Shift+F8",
       "action": "Go to previous error or warning",
       "category": "Navigation",
@@ -288,6 +329,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+Tab",
       "action": "Navigate editor group history",
       "category": "Navigation",
@@ -295,6 +337,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Alt+ ← / →",
       "action": "Go back / forward",
       "category": "Navigation",
@@ -302,6 +345,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+F",
       "action": "Find",
       "category": "Search and Replace",
@@ -309,6 +353,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+H",
       "action": "Replace",
       "category": "Search and Replace",
@@ -316,6 +361,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "F3 / Shift+F3",
       "action": "Find next/previous",
       "category": "Search and Replace",
@@ -323,6 +369,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Alt+Enter",
       "action": "Select all occurences of Find match",
       "category": "Search and Replace",
@@ -330,6 +377,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+D",
       "action": "Add selection to next Find match",
       "category": "Search and Replace",
@@ -337,6 +385,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K Ctrl+D",
       "action": "Move last selection to next Find match",
       "category": "Search and Replace",
@@ -344,6 +393,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Alt+C / R / W",
       "action": "Toggle case-sensitive / regex / whole word",
       "category": "Search and Replace",
@@ -351,6 +401,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Alt+Click",
       "action": "Insert cursor",
       "category": "Multi-cursor and selection",
@@ -358,6 +409,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Alt+ ↑ / ↓",
       "action": "Insert cursor above / below",
       "category": "Multi-cursor and selection",
@@ -365,6 +417,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+U",
       "action": "Undo last cursor operation",
       "category": "Multi-cursor and selection",
@@ -372,6 +425,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Shift+Alt+I",
       "action": "Insert cursor at end of each line selected",
       "category": "Multi-cursor and selection",
@@ -379,6 +433,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+L",
       "action": "Select current line",
       "category": "Multi-cursor and selection",
@@ -386,6 +441,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+L",
       "action": "Select all occurrences of current selection",
       "category": "Multi-cursor and selection",
@@ -393,6 +449,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+F2",
       "action": "Select all occurrences of current word",
       "category": "Multi-cursor and selection",
@@ -400,6 +457,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Shift+Alt+→",
       "action": "Expand selection",
       "category": "Multi-cursor and selection",
@@ -407,6 +465,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Shift+Alt+←",
       "action": "Shrink selection",
       "category": "Multi-cursor and selection",
@@ -414,6 +473,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Shift+Alt+(drag mouse)",
       "action": "Column (box) selection",
       "category": "Multi-cursor and selection",
@@ -421,6 +481,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+Alt+(arrow key)",
       "action": "Column (box) selection",
       "category": "Multi-cursor and selection",
@@ -428,6 +489,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+Alt+PgUp/PgDn",
       "action": "Column (box) selection page up/down",
       "category": "Multi-cursor and selection",
@@ -435,6 +497,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Space, Ctrl+I",
       "action": "Trigger suggestion",
       "category": "Rich languages editing",
@@ -442,6 +505,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+Space",
       "action": "Trigger parameter hints",
       "category": "Rich languages editing",
@@ -449,6 +513,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Shift+Alt+F",
       "action": "Format document",
       "category": "Rich languages editing",
@@ -456,6 +521,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K Ctrl+F",
       "action": "Format selection",
       "category": "Rich languages editing",
@@ -463,6 +529,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "F12",
       "action": "Go to Definition",
       "category": "Rich languages editing",
@@ -470,6 +537,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Alt+F12",
       "action": "Peek Definition",
       "category": "Rich languages editing",
@@ -477,6 +545,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K F12",
       "action": "Open Definition to the side",
       "category": "Rich languages editing",
@@ -484,6 +553,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+.",
       "action": "Quick Fix",
       "category": "Rich languages editing",
@@ -491,6 +561,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Shift+F12",
       "action": "Show References",
       "category": "Rich languages editing",
@@ -498,6 +569,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "F2",
       "action": "Rename Symbol",
       "category": "Rich languages editing",
@@ -505,6 +577,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K Ctrl+X",
       "action": "Trim trailing whitespace",
       "category": "Rich languages editing",
@@ -512,6 +585,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K M",
       "action": "Change file language",
       "category": "Rich languages editing",
@@ -519,6 +593,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+F4, Ctrl+W",
       "action": "Close editor",
       "category": "Editor management",
@@ -526,6 +601,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K F",
       "action": "Close folder",
       "category": "Editor management",
@@ -533,6 +609,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+\\",
       "action": "Split editor",
       "category": "Editor management",
@@ -540,6 +617,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+ 1 / 2 / 3",
       "action": "Focus into 1st, 2nd or 3rd editor group",
       "category": "Editor management",
@@ -547,6 +625,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K Ctrl+ ←/→",
       "action": "Focus into previous/next editor group",
       "category": "Editor management",
@@ -554,6 +633,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+PgUp / PgDn",
       "action": "Move editor left/right",
       "category": "Editor management",
@@ -561,6 +641,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K ← / →",
       "action": "Move active editor group",
       "category": "Editor management",
@@ -568,6 +649,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+N",
       "action": "New File",
       "category": "File management",
@@ -575,6 +657,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+O",
       "action": "Open File...",
       "category": "File management",
@@ -582,6 +665,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+S",
       "action": "Save",
       "category": "File management",
@@ -589,6 +673,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+S",
       "action": "Save As...",
       "category": "File management",
@@ -596,6 +681,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K S",
       "action": "Save All",
       "category": "File management",
@@ -603,6 +689,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+F4",
       "action": "Close",
       "category": "File management",
@@ -610,6 +697,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K Ctrl+W",
       "action": "Close All",
       "category": "File management",
@@ -617,6 +705,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+T",
       "action": "Reopen closed editor",
       "category": "File management",
@@ -624,6 +713,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K Enter",
       "action": "Keep preview mode editor open",
       "category": "File management",
@@ -631,6 +721,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Tab",
       "action": "Open next",
       "category": "File management",
@@ -638,6 +729,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+Tab",
       "action": "Open previous",
       "category": "File management",
@@ -645,6 +737,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K P",
       "action": "Copy path of active file",
       "category": "File management",
@@ -652,6 +745,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K R",
       "action": "Reveal active file in Explorer",
       "category": "File management",
@@ -659,6 +753,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K O",
       "action": "Show active file in new window/instance",
       "category": "File management",
@@ -666,6 +761,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "F11",
       "action": "Toggle full screen",
       "category": "Display",
@@ -673,6 +769,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Shift+Alt+0",
       "action": "Toggle editor layout (horizontal/vertical)",
       "category": "Display",
@@ -680,6 +777,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+ = / -",
       "action": "Zoom in/out",
       "category": "Display",
@@ -687,6 +785,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+B",
       "action": "Toggle Sidebar visibility",
       "category": "Display",
@@ -694,6 +793,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+E",
       "action": "Show Explorer / Toggle focus",
       "category": "Display",
@@ -701,6 +801,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+F",
       "action": "Show Search",
       "category": "Display",
@@ -708,6 +809,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+G",
       "action": "Show Source Control",
       "category": "Display",
@@ -715,6 +817,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+D ",
       "action": "Show Debug",
       "category": "Display",
@@ -722,6 +825,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+X",
       "action": "Show Extensions",
       "category": "Display",
@@ -729,6 +833,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+H",
       "action": "Replace in files",
       "category": "Display",
@@ -736,6 +841,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+J",
       "action": "Toggle Search details",
       "category": "Display",
@@ -743,6 +849,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+U",
       "action": "Show Output panel",
       "category": "Display",
@@ -750,6 +857,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+V",
       "action": "Open Markdown preview",
       "category": "Display",
@@ -757,12 +865,15 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K V",
       "action": "Open Markdown preview to the side",
       "category": "Display",
       "worksIn": "Windows",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
-    },    {
+    },    
+    {
+      "id": "test",
       "keyStroke": "Ctrl+K Z",
       "action": "Zen Mode (Esc Esc to exit)",
       "category": "Display",
@@ -770,6 +881,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "F9",
       "action": "Toggle breakpoint",
       "category": "Debug",
@@ -777,6 +889,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "F5",
       "action": "Start/Continue",
       "category": "Debug",
@@ -784,6 +897,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Shift+F5",
       "action": "Stop",
       "category": "Debug",
@@ -791,6 +905,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "F11 / Shift+F11",
       "action": "Step into/out",
       "category": "Debug",
@@ -798,6 +913,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "F10",
       "action": "Step over",
       "category": "Debug",
@@ -805,6 +921,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K Ctrl+I",
       "action": "Show hover",
       "category": "Debug",
@@ -812,6 +929,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+`",
       "action": "Show integrated terminal",
       "category": "Integrated terminal",
@@ -819,6 +937,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+`",
       "action": "Create new terminal",
       "category": "Integrated terminal",
@@ -826,6 +945,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+C",
       "action": "Copy selection",
       "category": "Integrated terminal",
@@ -833,6 +953,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+V",
       "action": "Paste into active terminal",
       "category": "Integrated terminal",
@@ -840,6 +961,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+↑ / ↓",
       "action": "Scroll up/down",
       "category": "Integrated terminal",
@@ -847,6 +969,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Shift+PgUp / PgDn",
       "action": "Scroll page up/down",
       "category": "Integrated terminal",
@@ -854,6 +977,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Home / End",
       "action": "Scroll to top/bottom",
       "category": "Integrated terminal",
@@ -861,6 +985,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⇧⌘P, F1",
       "action": "Show Command Palette",
       "category": "General",
@@ -868,6 +993,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌘P",
       "action": "Quick Open, Go to File…",
       "category": "General",
@@ -875,6 +1001,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⇧⌘N",
       "action": "New Window/instance",
       "category": "General",
@@ -882,6 +1009,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌘W",
       "action": "Close window/instance",
       "category": "General",
@@ -889,6 +1017,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌘",
       "action": "User Settings",
       "category": "General",
@@ -896,6 +1025,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌘K ⌘S",
       "action": "Keyboard Shortcuts",
       "category": "General",
@@ -903,6 +1033,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌘X",
       "action": "Cut line (empty selection)",
       "category": "Basic Editing",
@@ -910,6 +1041,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌘C",
       "action": "Copy line (empty selection)",
       "category": "Basic Editing",
@@ -917,6 +1049,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌥↓ / ⌥↑",
       "action": "Move line down/up",
       "category": "Basic Editing",
@@ -924,6 +1057,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⇧⌥↓ / ⇧⌥↑",
       "action": "Copy line down/up",
       "category": "Basic Editing",
@@ -931,6 +1065,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⇧⌘K",
       "action": "Delete line",
       "category": "Basic Editing",
@@ -938,6 +1073,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌘Enter / ⇧⌘Enter",
       "action": "Insert line below/above",
       "category": "Basic Editing",
@@ -945,6 +1081,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⇧⌘\\",
       "action": "Jump to matching bracket",
       "category": "Basic Editing",
@@ -952,6 +1089,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌘] / ⌘[",
       "action": "Indent/outdent line",
       "category": "Basic Editing",
@@ -959,6 +1097,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Home / End ",
       "action": "Go to beginning/end of line",
       "category": "Basic Editing",
@@ -966,6 +1105,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌘↑ / ⌘↓",
       "action": "Go to beginning/end of file",
       "category": "Basic Editing",
@@ -973,6 +1113,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌃PgUp / ⌃PgDn ",
       "action": "Scroll line up/down",
       "category": "Basic Editing",
@@ -980,6 +1121,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌘PgUp /⌘PgDn",
       "action": "Scroll page up/down",
       "category": "Basic Editing",
@@ -987,6 +1129,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌥⌘[ / ⌥⌘] ",
       "action": "Fold/unfold region",
       "category": "Basic Editing",
@@ -994,6 +1137,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌘K ⌘[ / ⌘K ⌘]",
       "action": "Fold/unfold all subregions",
       "category": "Basic Editing",
@@ -1001,6 +1145,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌘K ⌘0 / ⌘K ⌘J",
       "action": "Fold/unfold all regions",
       "category": "Basic Editing",
@@ -1008,6 +1153,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌘K ⌘C",
       "action": "Add line comment",
       "category": "Basic Editing",
@@ -1015,6 +1161,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌘K ⌘U ",
       "action": "Remove line comment",
       "category": "Basic Editing",
@@ -1022,6 +1169,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌘/",
       "action": "Toggle line comment",
       "category": "Basic Editing",
@@ -1029,6 +1177,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⇧⌥A",
       "action": "Toggle block comment",
       "category": "Basic Editing",
@@ -1036,6 +1185,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌥Z",
       "action": "Toggle word wrap",
       "category": "Basic Editing",
@@ -1043,6 +1193,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌥ + click",
       "action": "Insert cursor",
       "category": "Multi-cursor and selection",
@@ -1050,6 +1201,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
+      "id": "test",
       "keyStroke": "⌥⌘↑",
       "action": "Insert cursor above",
       "category": "Multi-cursor and selection",
@@ -1057,6 +1209,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
+      "id": "test",
       "keyStroke": "⌥⌘↓",
       "action": "Insert cursor below",
       "category": "Multi-cursor and selection",
@@ -1064,6 +1217,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
+      "id": "test",
       "keyStroke": "⌘U",
       "action": "Undo last cursor operation",
       "category": "Multi-cursor and selection",
@@ -1071,6 +1225,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
+      "id": "test",
       "keyStroke": "⇧⌥I",
       "action": "Insert cursor at end of each line selected",
       "category": "Multi-cursor and selection",
@@ -1078,6 +1233,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
+      "id": "test",
       "keyStroke": "⌘L",
       "action": "Select current line",
       "category": "Multi-cursor and selection",
@@ -1085,6 +1241,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
+      "id": "test",
       "keyStroke": "⇧⌘L",
       "action": "Select all occurrences of current selection",
       "category": "Multi-cursor and selection",
@@ -1092,6 +1249,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
+      "id": "test",
       "keyStroke": "⌘F2",
       "action": "Select all occurrences of current word",
       "category": "Multi-cursor and selection",
@@ -1099,6 +1257,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
+      "id": "test",
       "keyStroke": "⌃⇧⌘→ / ←",
       "action": "Expand / shrink selection",
       "category": "Multi-cursor and selection",
@@ -1106,6 +1265,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
+      "id": "test",
       "keyStroke": "⇧⌥ + drag mouse",
       "action": "Column (box) selection",
       "category": "Multi-cursor and selection",
@@ -1113,6 +1273,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
+      "id": "test",
       "keyStroke": "⇧⌥⌘↑ / ↓",
       "action": "Column (box) selection up/down",
       "category": "Multi-cursor and selection",
@@ -1120,6 +1281,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
+      "id": "test",
       "keyStroke": "⇧⌥⌘← / →",
       "action": "Column (box) selection left/right",
       "category": "Multi-cursor and selection",
@@ -1127,6 +1289,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
+      "id": "test",
       "keyStroke": "⇧⌥⌘PgUp",
       "action": "Column (box) selection page up",
       "category": "Multi-cursor and selection",
@@ -1134,6 +1297,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
+      "id": "test",
       "keyStroke": "⇧⌥⌘PgDn",
       "action": "Column (box) selection page down",
       "category": "Multi-cursor and selection",
@@ -1141,6 +1305,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
+      "id": "test",
       "keyStroke": "⌘F",
       "action": "Find",
       "category": "Search and replace",
@@ -1148,6 +1313,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
+      "id": "test",
       "keyStroke": "⌥⌘F",
       "action": "Replace",
       "category": "Search and replace",
@@ -1155,6 +1321,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
+      "id": "test",
       "keyStroke": "⌘G / ⇧⌘G",
       "action": "Find next/previous",
       "category": "Search and replace",
@@ -1162,6 +1329,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
+      "id": "test",
       "keyStroke": "⌥Enter",
       "action": "Select all occurrences of Find match",
       "category": "Search and replace",
@@ -1169,6 +1337,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
+      "id": "test",
       "keyStroke": "⌘D",
       "action": "Add selection to next Find match",
       "category": "Search and replace",
@@ -1176,6 +1345,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
+      "id": "test",
       "keyStroke": "⌘K ⌘D",
       "action": "Move last selection to next Find match",
       "category": "Search and replace",
@@ -1183,6 +1353,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
+      "id": "test",
       "keyStroke": "⌃Space, ⌘I",
       "action": "Trigger suggestion",
       "category": "Rich languages editing",
@@ -1190,6 +1361,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
+      "id": "test",
       "keyStroke": "⇧⌘Space",
       "action": "Trigger parameter hints",
       "category": "Rich languages editing",
@@ -1197,6 +1369,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
+      "id": "test",
       "keyStroke": "⇧⌥F",
       "action": "Format document",
       "category": "Rich languages editing",
@@ -1204,6 +1377,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
+      "id": "test",
       "keyStroke": "⌘K ⌘F",
       "action": "Format selection",
       "category": "Rich languages editing",
@@ -1211,6 +1385,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
+      "id": "test",
       "keyStroke": "F12",
       "action": "Go to Definition",
       "category": "Rich languages editing",
@@ -1218,6 +1393,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
+      "id": "test",
       "keyStroke": "⌥F12",
       "action": "Peek Definition",
       "category": "Rich languages editing",
@@ -1225,6 +1401,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
+      "id": "test",
       "keyStroke": "⌘K F12",
       "action": "Open Definition to the side",
       "category": "Rich languages editing",
@@ -1232,6 +1409,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
+      "id": "test",
       "keyStroke": "⌘.",
       "action": "Quick Fix",
       "category": "Rich languages editing",
@@ -1239,6 +1417,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
+      "id": "test",
       "keyStroke": "⇧F12",
       "action": "Show References",
       "category": "Rich languages editing",
@@ -1246,6 +1425,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
+      "id": "test",
       "keyStroke": "F2",
       "action": "Rename Symbol",
       "category": "Rich languages editing",
@@ -1253,6 +1433,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
+      "id": "test",
       "keyStroke": "⌘K ⌘X",
       "action": "Trim trailing whitespace",
       "category": "Rich languages editing",
@@ -1260,6 +1441,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
+      "id": "test",
       "keyStroke": "⌘K M",
       "action": "Change file language",
       "category": "Rich languages editing",
@@ -1267,6 +1449,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
+      "id": "test",
       "keyStroke": "⌘T",
       "action": "Show all Symbols",
       "category": "Navigation",
@@ -1274,6 +1457,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
+      "id": "test",
       "keyStroke": "⌃G",
       "action": "Go to Line...",
       "category": "Navigation",
@@ -1281,6 +1465,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
+      "id": "test",
       "keyStroke": "⌘P",
       "action": "Go to File...",
       "category": "Navigation",
@@ -1288,6 +1473,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
+      "id": "test",
       "keyStroke": "⇧⌘O",
       "action": "Go to Symbol...",
       "category": "Navigation",
@@ -1295,6 +1481,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
+      "id": "test",
       "keyStroke": "⇧⌘M",
       "action": "Show Problems panel",
       "category": "Navigation",
@@ -1302,6 +1489,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
+      "id": "test",
       "keyStroke": "F8 / ⇧F8",
       "action": "Go to next/previous error or warning",
       "category": "Navigation",
@@ -1309,6 +1497,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
+      "id": "test",
       "keyStroke": "⌃⇧Tab",
       "action": "Navigate editor group history",
       "category": "Navigation",
@@ -1316,6 +1505,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
+      "id": "test",
       "keyStroke": "⌃- / ⌃⇧-",
       "action": "Go back/forward",
       "category": "Navigation",
@@ -1323,6 +1513,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
    {
+      "id": "test",
       "keyStroke": "⌃⇧M",
       "action": "Toggle Tab moves focus",
       "category": "Navigation",
@@ -1330,6 +1521,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌘W",
       "action": "Close editor",
       "category": "Editor management",
@@ -1337,6 +1529,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌘K F ",
       "action": "Close folder",
       "category": "Editor management",
@@ -1344,6 +1537,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌘\\",
       "action": "Split editor",
       "category": "Editor management",
@@ -1351,6 +1545,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌘1 / ⌘2 / ⌘3",
       "action": "Focus into 1st 2nd 3rd editor group",
       "category": "Editor management",
@@ -1358,6 +1553,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌘K ⌘← / ⌘K ⌘→",
       "action": "Focus into previous/next editor group",
       "category": "Editor management",
@@ -1365,6 +1561,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌘K ⇧⌘← / ⌘K ⇧⌘→",
       "action": "Move editor left/right",
       "category": "Editor management",
@@ -1372,6 +1569,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌘K ← / ⌘K →",
       "action": "Move active editor group",
       "category": "Editor management",
@@ -1379,6 +1577,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌘N",
       "action": "New File",
       "category": "File management",
@@ -1386,6 +1585,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌘O",
       "action": "Open File...",
       "category": "File management",
@@ -1393,6 +1593,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌘S",
       "action": "Save",
       "category": "File management",
@@ -1400,6 +1601,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⇧⌘S",
       "action": "Save As...",
       "category": "File management",
@@ -1407,6 +1609,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌥⌘S",
       "action": "Save All",
       "category": "File management",
@@ -1414,6 +1617,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌘W",
       "action": "Close",
       "category": "File management",
@@ -1421,6 +1625,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌘K ⌘W",
       "action": "Close All",
       "category": "File management",
@@ -1428,6 +1633,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⇧⌘T",
       "action": "Reopen closed editor",
       "category": "File management",
@@ -1435,6 +1641,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌘K Enter",
       "action": "Keep preview mode editor open",
       "category": "File management",
@@ -1442,6 +1649,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌃Tab / ⌃⇧Tab",
       "action": "Open next / previous",
       "category": "File management",
@@ -1449,6 +1657,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌘K P",
       "action": "Copy path of active file",
       "category": "File management",
@@ -1456,6 +1665,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌘K R",
       "action": "Reveal active file in Finder",
       "category": "File management",
@@ -1463,6 +1673,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌘K O",
       "action": "Show active file in new window/instance",
       "category": "File management",
@@ -1470,6 +1681,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌃⌘F",
       "action": "Toggle full screen",
       "category": "Display",
@@ -1477,6 +1689,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌥⌘0",
       "action": "Toggle editor layout (horizontal/vertical)",
       "category": "Display",
@@ -1484,6 +1697,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌘= / ⇧⌘-",
       "action": "Zoom in/out",
       "category": "Display",
@@ -1491,6 +1705,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌘B",
       "action": "Toggle Sidebar visibility",
       "category": "Display",
@@ -1498,6 +1713,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⇧⌘E",
       "action": "Show Explorer / Toggle focus",
       "category": "Display",
@@ -1505,6 +1721,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⇧⌘F",
       "action": "Show Search",
       "category": "Display",
@@ -1512,6 +1729,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌃⇧G",
       "action": "Show Source Control",
       "category": "Display",
@@ -1519,6 +1737,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⇧⌘D",
       "action": "Show Debug",
       "category": "Display",
@@ -1526,6 +1745,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⇧⌘X",
       "action": "Show Extensions",
       "category": "Display",
@@ -1533,6 +1753,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⇧⌘H",
       "action": "Replace in files",
       "category": "Display",
@@ -1540,6 +1761,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⇧⌘J",
       "action": "Toggle Search details",
       "category": "Display",
@@ -1547,6 +1769,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⇧⌘U",
       "action": "Show Output panel",
       "category": "Display",
@@ -1554,6 +1777,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⇧⌘V",
       "action": "Open Markdown preview",
       "category": "Display",
@@ -1561,6 +1785,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌘K V",
       "action": "Open Markdown preview to the side",
       "category": "Display",
@@ -1568,6 +1793,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌘K Z",
       "action": "Zen Mode (Esc Esc to exit)",
       "category": "Display",
@@ -1575,6 +1801,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "F9",
       "action": "Toggle breakpoint",
       "category": "Debug",
@@ -1582,6 +1809,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "F5",
       "action": "Start/Continue",
       "category": "Debug",
@@ -1589,6 +1817,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "F11 / ⇧F11",
       "action": "Step into/ out",
       "category": "Debug",
@@ -1596,6 +1825,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "F10",
       "action": "Step over",
       "category": "Debug",
@@ -1603,6 +1833,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⇧F5",
       "action": "Stop",
       "category": "Debug",
@@ -1610,6 +1841,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌘K ⌘I",
       "action": "Show hover",
       "category": "Debug",
@@ -1617,6 +1849,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌃`",
       "action": "Show integrated terminal",
       "category": "Integrated Terminal",
@@ -1624,6 +1857,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌃⇧`",
       "action": "Create new terminal",
       "category": "Integrated Terminal",
@@ -1631,6 +1865,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌘C",
       "action": "Copy selection",
       "category": "Integrated Terminal",
@@ -1638,6 +1873,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌘↑ / ↓",
       "action": "Scroll up/down",
       "category": "Integrated Terminal",
@@ -1645,6 +1881,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "PgUp / PgDn",
       "action": "Scroll page up/down",
       "category": "Integrated Terminal",
@@ -1652,6 +1889,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "⌘Home / End",
       "action": "Scroll to top/bottom",
       "category": "Integrated Terminal",
@@ -1659,6 +1897,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+P, F1",
       "action": "Show Command Palette",
       "category": "General",
@@ -1666,6 +1905,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+P",
       "action": "Quick Open, Go to File...",
       "category": "General",
@@ -1673,6 +1913,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+N ",
       "action": "New window/instance",
       "category": "General",
@@ -1680,6 +1921,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+W",
       "action": "Close window/instance",
       "category": "General",
@@ -1687,6 +1929,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+",
       "action": "User Settings",
       "category": "General",
@@ -1694,6 +1937,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     }, 
     {
+      "id": "test",
       "keyStroke": "Ctrl+K Ctrl+S ",
       "action": "Keyboard Shortcuts",
       "category": "General",
@@ -1701,6 +1945,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+X",
       "action": "Cut line (empty selection)",
       "category": "Basic Editing",
@@ -1708,6 +1953,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+C",
       "action": "Copy line (empty selection)",
       "category": "Basic Editing",
@@ -1715,6 +1961,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Alt+ ↓ / ↑",
       "action": "Move line down/up",
       "category": "Basic Editing",
@@ -1722,6 +1969,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+K",
       "action": "Delete line",
       "category": "Basic Editing",
@@ -1729,6 +1977,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Enter / Ctrl+Shift+Enter",
       "action": "Insert line below/ above",
       "category": "Basic Editing",
@@ -1736,6 +1985,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+\\",
       "action": "Jump to matching bracket",
       "category": "Basic Editing",
@@ -1743,6 +1993,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+] / Ctrl+[",
       "action": "Indent/Outdent line",
       "category": "Basic Editing",
@@ -1750,6 +2001,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Home / End ",
       "action": "Go to beginning/end of line",
       "category": "Basic Editing",
@@ -1757,6 +2009,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+ Home / End",
       "action": "Go to beginning/end of file",
       "category": "Basic Editing",
@@ -1764,6 +2017,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+ ↑ / ↓",
       "action": "Scroll line up/down",
       "category": "Basic Editing",
@@ -1771,6 +2025,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Alt+ PgUp / PgDn",
       "action": "Scroll page up/down",
       "category": "Basic Editing",
@@ -1778,6 +2033,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+ [ / ] ",
       "action": "Fold/unfold region",
       "category": "Basic Editing",
@@ -1785,6 +2041,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K Ctrl+ [ / ] ",
       "action": "Fold/unfold all subregions",
       "category": "Basic Editing",
@@ -1792,6 +2049,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K Ctrl+0 /Ctrl+K Ctrl+J",
       "action": "Fold/Unfold all regions",
       "category": "Basic Editing",
@@ -1799,6 +2057,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K Ctrl+C ",
       "action": "Add line comment",
       "category": "Basic Editing",
@@ -1806,6 +2065,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K Ctrl+U ",
       "action": "Remove line comment",
       "category": "Basic Editing",
@@ -1813,6 +2073,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+/",
       "action": "Toggle line comment",
       "category": "Basic Editing",
@@ -1820,6 +2081,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+A ",
       "action": "Toggle block comment",
       "category": "Basic Editing",
@@ -1827,6 +2089,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Alt+Z ",
       "action": "Toggle word wrap",
       "category": "Basic Editing",
@@ -1834,6 +2097,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Space, Ctrl+I ",
       "action": "Trigger suggestion",
       "category": "Rich languages editing",
@@ -1841,6 +2105,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+Space ",
       "action": "Trigger parameter hints",
       "category": "Rich languages editing",
@@ -1848,6 +2113,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Space, Ctrl+I",
       "action": "Trigger suggestion",
       "category": "Rich languages editing",
@@ -1855,6 +2121,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+Space",
       "action": "Trigger parameter hints",
       "category": "Rich languages editing",
@@ -1862,6 +2129,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+I",
       "action": "Format document",
       "category": "Rich languages editing",
@@ -1869,6 +2137,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K Ctrl+F ",
       "action": "Format selection",
       "category": "Rich languages editing",
@@ -1876,6 +2145,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "F12",
       "action": "Go to Definition",
       "category": "Rich languages editing",
@@ -1883,6 +2153,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+F10 ",
       "action": "Peek Definition",
       "category": "Rich languages editing",
@@ -1890,6 +2161,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K F12 ",
       "action": "Open Definition to the side",
       "category": "Rich languages editing",
@@ -1897,6 +2169,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+.",
       "action": "Quick Fix",
       "category": "Rich languages editing",
@@ -1904,6 +2177,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Shift+F12",
       "action": "Show References",
       "category": "Rich languages editing",
@@ -1911,6 +2185,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "F2",
       "action": "Rename Symbol",
       "category": "Rich languages editing",
@@ -1918,6 +2193,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K Ctrl+X",
       "action": "Trim trailing whitespace",
       "category": "Rich languages editing",
@@ -1925,6 +2201,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K M",
       "action": "Change file language",
       "category": "Rich languages editing",
@@ -1932,6 +2209,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Alt+Click",
       "action": "Insert cursor*",
       "category": "Multi-cursor and selection",
@@ -1939,6 +2217,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Shift+Alt+ ↑ / ↓ ",
       "action": "Insert cursor above/below",
       "category": "Multi-cursor and selection",
@@ -1946,6 +2225,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+U",
       "action": "Undo last cursor operation",
       "category": "Multi-cursor and selection",
@@ -1953,6 +2233,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Shift+Alt+I ",
       "action": "Insert cursor at end of each line selected",
       "category": "Multi-cursor and selection",
@@ -1960,6 +2241,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+L",
       "action": "Select current line",
       "category": "Multi-cursor and selection",
@@ -1967,6 +2249,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+L",
       "action": "Select all occurrences of current selection",
       "category": "Multi-cursor and selection",
@@ -1974,6 +2257,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+F2",
       "action": "Select all occurrences of current word",
       "category": "Multi-cursor and selection",
@@ -1981,6 +2265,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Shift+Alt + →",
       "action": "Expand selection",
       "category": "Multi-cursor and selection",
@@ -1988,6 +2273,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Shift+Alt + ←",
       "action": "Shrink selection",
       "category": "Multi-cursor and selection",
@@ -1995,6 +2281,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Shift+Alt + drag mouse",
       "action": "Column (box) selection",
       "category": "Multi-cursor and selection",
@@ -2002,6 +2289,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "F11",
       "action": "Toggle full screen",
       "category": "Display",
@@ -2009,6 +2297,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Shift+Alt+0",
       "action": "Toggle editor layout (horizontal/vertical)",
       "category": "Display",
@@ -2016,6 +2305,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+ = / - ",
       "action": "Zoom in/out",
       "category": "Display",
@@ -2023,6 +2313,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+B Toggle ",
       "action": "Sidebar visibility",
       "category": "Display",
@@ -2030,6 +2321,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+E ",
       "action": "Show Explorer / Toggle focus",
       "category": "Display",
@@ -2037,6 +2329,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+F ",
       "action": "Show Search",
       "category": "Display",
@@ -2044,6 +2337,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+G ",
       "action": "Show Source Control",
       "category": "Display",
@@ -2051,6 +2345,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+D ",
       "action": "Show Debug",
       "category": "Display",
@@ -2058,6 +2353,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+X ",
       "action": "Show Extensions",
       "category": "Display",
@@ -2065,6 +2361,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+H ",
       "action": "Replace in files",
       "category": "Display",
@@ -2072,6 +2369,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+J ",
       "action": "Toggle Search details",
       "category": "Display",
@@ -2079,6 +2377,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+C ",
       "action": "Open new command prompt/terminal",
       "category": "Display",
@@ -2086,6 +2385,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K Ctrl+H ",
       "action": "Show Output panel",
       "category": "Display",
@@ -2093,6 +2393,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+V ",
       "action": "Open Markdown preview",
       "category": "Display",
@@ -2100,6 +2401,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K V ",
       "action": "Open Markdown preview to the side",
       "category": "Display",
@@ -2107,6 +2409,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K Z ",
       "action": "Zen Mode (Esc Esc to exit)",
       "category": "Display",
@@ -2114,6 +2417,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+F ",
       "action": "Find",
       "category": "Search and replace",
@@ -2121,6 +2425,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+H ",
       "action": "Replace",
       "category": "Search and replace",
@@ -2128,6 +2433,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "F3 / Shift+F3 ",
       "action": "Find next/previous",
       "category": "Search and replace",
@@ -2135,6 +2441,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Alt+Enter ",
       "action": "Select all occurrences of Find match",
       "category": "Search and replace",
@@ -2142,6 +2449,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+D ",
       "action": "Add selection to next Find match",
       "category": "Search and replace",
@@ -2149,6 +2457,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K ",
       "action": "Ctrl+D Move last selection to next Find match",
       "category": "Search and replace",
@@ -2156,6 +2465,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+T ",
       "action": "Show all Symbols",
       "category": "Navigation",
@@ -2163,6 +2473,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+G ",
       "action": "Go to Line...",
       "category": "Navigation",
@@ -2170,6 +2481,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+P ",
       "action": "Go to File...",
       "category": "Navigation",
@@ -2177,6 +2489,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+O ",
       "action": "Go to Symbol...",
       "category": "Navigation",
@@ -2185,6 +2498,7 @@
     },
 
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+M ",
       "action": "Show Problems panel",
       "category": "Navigation",
@@ -2192,6 +2506,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "F8 ",
       "action": "Go to next error or warning",
       "category": "Navigation",
@@ -2200,6 +2515,7 @@
     },
 
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+Tab ",
       "action": "Navigate editor group history",
       "category": "Navigation",
@@ -2207,6 +2523,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Alt+- ",
       "action": "Go back",
       "category": "Navigation",
@@ -2215,6 +2532,7 @@
     },
 
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+- ",
       "action": "Go forward",
       "category": "Navigation",
@@ -2222,6 +2540,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+M ",
       "action": "Toggle Tab moves focus",
       "category": "Navigation",
@@ -2229,6 +2548,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+W ",
       "action": "Close editor",
       "category": "Editor management",
@@ -2236,6 +2556,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K F ",
       "action": "Close folder",
       "category": "Editor management",
@@ -2243,6 +2564,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+\\ ",
       "action": "Split editor",
       "category": "Editor management",
@@ -2250,6 +2572,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+ 1 / 2 / 3",
       "action": "Focus into 1st, 2nd, 3rd editor group",
       "category": "Editor management",
@@ -2257,6 +2580,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K Ctrl + ← ",
       "action": "Focus into previous editor group",
       "category": "Editor management",
@@ -2264,6 +2588,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K Ctrl + → ",
       "action": "Focus into next editor group",
       "category": "Editor management",
@@ -2271,6 +2596,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+PgUp ",
       "action": "Move editor left",
       "category": "Editor management",
@@ -2278,6 +2604,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+PgDn ",
       "action": "Move editor right",
       "category": "Editor management",
@@ -2285,6 +2612,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K ← ",
       "action": "Move active editor group left/up",
       "category": "Editor management",
@@ -2292,6 +2620,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K → ",
       "action": "Move active editor group right/down",
       "category": "Editor management",
@@ -2299,6 +2628,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+N ",
       "action": "New File",
       "category": "File management",
@@ -2306,6 +2636,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+O ",
       "action": "Open File...",
       "category": "File management",
@@ -2313,6 +2644,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+S ",
       "action": "Save",
       "category": "File management",
@@ -2320,6 +2652,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+S ",
       "action": "Save As...",
       "category": "File management",
@@ -2327,6 +2660,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+W ",
       "action": "Close",
       "category": "File management",
@@ -2334,6 +2668,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K Ctrl+W ",
       "action": "Close All",
       "category": "File management",
@@ -2341,6 +2676,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+T ",
       "action": "Reopen closed editor",
       "category": "File management",
@@ -2348,6 +2684,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K Enter ",
       "action": "Keep preview mode editor open",
       "category": "File management",
@@ -2355,6 +2692,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Tab ",
       "action": "Open next",
       "category": "File management",
@@ -2362,6 +2700,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+Tab ",
       "action": "Open previous",
       "category": "File management",
@@ -2369,6 +2708,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K P ",
       "action": "Copy path of active file",
       "category": "File management",
@@ -2376,6 +2716,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K R ",
       "action": "Reveal active file in Explorer",
       "category": "File management",
@@ -2383,6 +2724,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K O ",
       "action": "Show active file in new window/instance",
       "category": "File management",
@@ -2390,6 +2732,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "F9 ",
       "action": "Toggle breakpoint",
       "category": "Debug",
@@ -2397,6 +2740,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "F5 ",
       "action": "Start / Continue",
       "category": "Debug",
@@ -2404,6 +2748,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "F11 / Shift+F11 ",
       "action": "Step into/out",
       "category": "Debug",
@@ -2411,6 +2756,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "F10 ",
       "action": "Step over",
       "category": "Debug",
@@ -2418,6 +2764,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Shift+F5 ",
       "action": "Stop",
       "category": "Debug",
@@ -2425,6 +2772,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+K Ctrl+I ",
       "action": "Show hover",
       "category": "Debug",
@@ -2432,6 +2780,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+` ",
       "action": "Show integrated terminal",
       "category": "Integrated Terminal",
@@ -2439,6 +2788,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+` ",
       "action": "Create new terminal",
       "category": "Integrated Terminal",
@@ -2446,6 +2796,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+C ",
       "action": "Copy selection",
       "category": "Integrated Terminal",
@@ -2453,6 +2804,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+V ",
       "action": "Paste into active terminal",
       "category": "Integrated Terminal",
@@ -2460,6 +2812,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Ctrl+Shift+ ↑ / ↓ ",
       "action": "Scroll up/down",
       "category": "Integrated Terminal",
@@ -2467,6 +2820,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Shift+ PgUp / PgDn ",
       "action": "Scroll page up/down",
       "category": "Integrated Terminal",
@@ -2474,6 +2828,7 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
+      "id": "test",
       "keyStroke": "Shift+ Home / End",
       "action": "Scroll to top/bottom",
       "category": "Integrated Terminal",

@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 import ItemCollection from "./ItemCollection";
-import ItemForm from "./ItemForm";
-import Search from "./Search";
+import SubHeader from "./SubHeader";
 
 function ItemPage() {
   const [shortCuts, setAllShortCuts] = useState([])
   const [snippets, setSnippets] = useState([])
   const [searchQuery, setSearchQuery] = useState("")
+  const [selectedCategory, setSelectedCategory] = useState("All");
 
   useEffect(() => {
     fetch('http://localhost:3000/arrayOfShortCuts')
@@ -20,23 +20,24 @@ function ItemPage() {
     .then((snippets) => setSnippets(snippets))
   }, [])
 
-  const shortCutsToDisplay = shortCuts.filter((shortCut) => shortCut.action.toLowerCase().includes(searchQuery.toLowerCase()))
+  function handleCategoryChange(e) {
+    setSelectedCategory(e.target.value);
+  }
+
+  const shortCutsToDisplay = shortCuts
+  .filter((shortCut) => selectedCategory === "All" || shortCut.category === selectedCategory)
+  .filter((shortCut) => shortCut.action.toLowerCase().includes(searchQuery.toLowerCase()))
  
   function handleSearchQuery(event){
     setSearchQuery(event.target.value)
   }
 
   return (
-    <>
-      <h1>Item Searcher</h1>
-      <br />
-      <ItemForm />
-      <br />
-      <Search handleSearchQuery={handleSearchQuery}/>
-      <br />
+    <div>
+      <SubHeader handleSearchQuery={handleSearchQuery} onCategoryChange={handleCategoryChange}/>
       <ItemCollection snippets={snippets} shortCuts={shortCutsToDisplay} 
       />
-    </>
+    </div>
   );
 }
 

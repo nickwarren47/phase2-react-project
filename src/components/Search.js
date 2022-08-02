@@ -3,12 +3,10 @@ import React from "react";
 function Search({handleSearchQuery}) {
 
   return (
-    <div className="ui search">
       <div className="ui icon input">
-        <input className="prompt" onChange={handleSearchQuery}/>
-        <i className="search icon" />
+        <input className="prompt" placeholder="Search action here" onChange={handleSearchQuery}/>
+         <i className="search icon" />
       </div>
-    </div>
   );
 }
 

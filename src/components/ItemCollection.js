@@ -2,8 +2,7 @@ import React from "react";
 import ItemCard from "./ItemCard";
 
 function ItemCollection({shortCuts, snippets}) {
-  // map here over card
-    console.log(shortCuts)
+    // console.log(shortCuts)
     const searchShortCuts = () => (
         shortCuts.map((shortCut) => (
           <ItemCard 
