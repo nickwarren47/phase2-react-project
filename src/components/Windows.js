@@ -1,12 +1,12 @@
 import React from 'react'
 
-function MacOS({ mac }) {
-    const {
-        keyStroke, 
-        action, 
-        worksIn, 
-        category
-    } = mac
+function Windows({window}) {
+  const {
+    keyStroke, 
+    action, 
+    worksIn, 
+    category
+} = window
 
   return (
     <div>
@@ -18,4 +18,4 @@ function MacOS({ mac }) {
   )
 }
 
-export default MacOS
+export default Windows

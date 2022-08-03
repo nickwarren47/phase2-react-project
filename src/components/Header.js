@@ -13,13 +13,17 @@ const linkStyles = {
 
 function Header(){
     return(
-        <header>
-            <h1>
-                Coder's Keys 
-                <span className="logo" role="img">
-                    💻
-                </span>
-            </h1>
+        <div>
+            <NavLink
+                to="/Home"
+                exact
+                style={linkStyles}
+                activeStyle={{
+                background: "darkblue",
+                }}
+            >
+                Home
+            </NavLink>
             <NavLink
                 to="/MacOS"
                 exact
@@ -50,7 +54,7 @@ function Header(){
             >
                 Linux
             </NavLink>
-        </header>
+        </div>
     );
 }
 
