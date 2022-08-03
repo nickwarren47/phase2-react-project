@@ -1,11 +1,14 @@
 import React, { useEffect, useState } from "react";
-import Header from "./Header";
+// import Header from "./Header";
 import Home from "./Home";
 import Windows from "./Windows";
 import Linux from "./Linux";
 import MacOS from './MacOS';
+import Snippets from "./Snippets";
 import {Route, Switch } from "react-router-dom";
 import NavBar from "./NavBar";
+import ItemForm from "./ItemForm";
+import { Search } from "semantic-ui-react";
 
 
 function App() {
@@ -22,32 +25,41 @@ useEffect(() => {
     fetch('http://localhost:5000/arrayOfSnippets')
     .then(res => res.json())
     .then((snippets) => setSnippets(snippets))
-}, [])
- 
+}, []) 
 // shortCuts.worksIn === "MacOS"
   const macsArray = shortCuts.filter((shortCut) => shortCut.worksIn === "MacOS")
   const windowsArray = shortCuts.filter((shortCut) => shortCut.worksIn === "Windows")
   const linuxArray = shortCuts.filter((shortCut) => shortCut.worksIn === "Linux")
 
   return (
-    <div className="App">
-        <Header />
+    <div className="">
+        {/* <Header /> */}
           <NavBar />
           <Switch>
             <Route path="/Home">
               <Home />
             </Route>
             <Route path="/MacOS">
+            <Search />
               {macsArray.map((mac) => (
               <MacOS mac={mac}/>))}
             </Route>
             <Route path="/Windows">
+            <Search />
             {windowsArray.map((window) => (
               <Windows window={window}/>))}
             </Route>
             <Route path="/Linux">
+            <Search />
               {linuxArray.map((linux) => (
               <Linux linux={linux}/>))}
+            </Route>
+            <Route path="/">
+              <Search />
+            </Route>
+            <Route path="/Form">
+              {snippets.map((snippet) => (
+                <Snippets snippet={snippet}/>))}
             </Route>
           </Switch>
     </div>
