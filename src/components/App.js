@@ -6,6 +6,8 @@ import Linux from "./Linux";
 import MacOS from './MacOS';
 import {Route, Switch } from "react-router-dom";
 import NavBar from "./NavBar";
+import ItemForm from "./ItemForm";
+import { Search } from "semantic-ui-react";
 
 
 function App() {
@@ -30,7 +32,7 @@ useEffect(() => {
   const linuxArray = shortCuts.filter((shortCut) => shortCut.worksIn === "Linux")
 
   return (
-    <div className="App">
+    <div className="">
         <Header />
           <NavBar />
           <Switch>
@@ -38,17 +40,26 @@ useEffect(() => {
               <Home />
             </Route>
             <Route path="/MacOS">
+            <Search />
               {macsArray.map((mac) => (
               <MacOS mac={mac}/>))}
             </Route>
             <Route path="/Windows">
+            <Search />
             {windowsArray.map((window) => (
               <Windows window={window}/>))}
             </Route>
             <Route path="/Linux">
+            <Search />
               {linuxArray.map((linux) => (
               <Linux linux={linux}/>))}
             </Route>
+            <Route path="/">
+              <Search />
+            </Route>
+            {/* <Route path="/Form">
+              <ItemForm />
+            </Route> */}
           </Switch>
     </div>
   );

@@ -10,7 +10,7 @@ function NavBar(){
             name='Home'
             active={activeItem === 'Home'}
             onClick={() => setActiveItem("Home")}>
-            <Link to="/">Home</Link>
+            <Link to="/Home">Home</Link>
           </Menu.Item>
           <Menu.Item
             name='MacOS'
@@ -30,9 +30,14 @@ function NavBar(){
             onClick={() => setActiveItem("Linux")}>
             <Link to="/Linux">Linux</Link>
           </Menu.Item>
+          {/* <Menu.Item
+            name='Form'
+            active={activeItem === 'Form'}
+            onClick={() => setActiveItem("Linux")}>
+            <Link to="/Form">Add Keys</Link>
+          </Menu.Item> */}
         </Menu>
     )
 }
-
 
 export default NavBar;
