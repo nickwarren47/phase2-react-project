@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, Grid, Search } from 'semantic-ui-react'
+import { Card } from 'semantic-ui-react'
 
 function MacOS({ mac }) {
     const {
@@ -10,8 +10,7 @@ function MacOS({ mac }) {
     } = mac
       
   return (
-      <div>
-      <Card className="ui grid container">
+      <Card className="Card">
         <Card.Content>
           <Card.Header>{keyStroke}</Card.Header>
           <Card.Meta>
@@ -24,7 +23,6 @@ function MacOS({ mac }) {
           </Card.Description>
         </Card.Content>
       </Card>
-      </div>
   )
 }
 

@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
-import Header from "./Header";
+// import Header from "./Header";
 import Home from "./Home";
 import Windows from "./Windows";
 import Linux from "./Linux";
 import MacOS from './MacOS';
+import Snippets from "./Snippets";
 import {Route, Switch } from "react-router-dom";
 import NavBar from "./NavBar";
 import ItemForm from "./ItemForm";
@@ -24,8 +25,7 @@ useEffect(() => {
     fetch('http://localhost:5000/arrayOfSnippets')
     .then(res => res.json())
     .then((snippets) => setSnippets(snippets))
-}, [])
- 
+}, []) 
 // shortCuts.worksIn === "MacOS"
   const macsArray = shortCuts.filter((shortCut) => shortCut.worksIn === "MacOS")
   const windowsArray = shortCuts.filter((shortCut) => shortCut.worksIn === "Windows")
@@ -33,7 +33,7 @@ useEffect(() => {
 
   return (
     <div className="">
-        <Header />
+        {/* <Header /> */}
           <NavBar />
           <Switch>
             <Route path="/Home">
@@ -57,9 +57,10 @@ useEffect(() => {
             <Route path="/">
               <Search />
             </Route>
-            {/* <Route path="/Form">
-              <ItemForm />
-            </Route> */}
+            <Route path="/Form">
+              {snippets.map((snippet) => (
+                <Snippets snippet={snippet}/>))}
+            </Route>
           </Switch>
     </div>
   );

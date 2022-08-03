@@ -30,12 +30,12 @@ function NavBar(){
             onClick={() => setActiveItem("Linux")}>
             <Link to="/Linux">Linux</Link>
           </Menu.Item>
-          {/* <Menu.Item
-            name='Form'
-            active={activeItem === 'Form'}
-            onClick={() => setActiveItem("Linux")}>
-            <Link to="/Form">Add Keys</Link>
-          </Menu.Item> */}
+          <Menu.Item
+            name='Snippets'
+            active={activeItem === 'Snippets'}
+            onClick={() => setActiveItem("Snippets")}>
+            <Link to="/Snippets">Snippets</Link>
+          </Menu.Item>
         </Menu>
     )
 }

@@ -1,6 +1,14 @@
 .homeCard {
     text-align: center;
 }
+
+.Card {
+    list-style: none;
+    margin: 1rem;
+    width: calc(33% - 2rem);
+    display: flex;
+    flex-wrap: wrap;
+}
   
 
   
