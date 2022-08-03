@@ -1,20 +1,28 @@
 import React from 'react'
+import { Card } from 'semantic-ui-react'
 
-function Linux( {linux} ) {
-  const {
-    keyStroke, 
-    action, 
-    worksIn, 
-    category
-} = linux
-  
+function Linux({ linux }) {
+    const {
+        keyStroke, 
+        action, 
+        // worksIn, 
+        category
+    } = linux
+      
   return (
-    <div>
-        <h1>{keyStroke}</h1>
-        <p>{action}</p>
-        <p>{worksIn}</p>
-        <p>{category}</p>
-    </div>
+  <Card>
+    <Card.Content>
+      <Card.Header>{keyStroke}</Card.Header>
+      <Card.Meta>
+        <span className='category'>
+          category: {category}
+        </span>
+      </Card.Meta>
+      <Card.Description>
+        Action: {action}
+      </Card.Description>
+    </Card.Content>
+  </Card>
   )
 }
 

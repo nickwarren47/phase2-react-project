@@ -1,15 +1,15 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const linkStyles = {
-    display: "inline-block",
-    width: "50px",
-    padding: "12px",
-    margin: "0 6px 6px",
-    background: "blue",
-    textDecoration: "none",
-    color: "white",
-  };
+// const linkStyles = {
+//     display: "inline-block",
+//     width: "50px",
+//     padding: "12px",
+//     margin: "0 6px 6px",
+//     background: "blue",
+//     textDecoration: "none",
+//     color: "white",
+//   };
 
 function Header(){
     return(
@@ -17,7 +17,7 @@ function Header(){
             <NavLink
                 to="/Home"
                 exact
-                style={linkStyles}
+                // style={linkStyles}
                 activeStyle={{
                 background: "darkblue",
                 }}
@@ -27,7 +27,7 @@ function Header(){
             <NavLink
                 to="/Home"
                 exact
-                style={linkStyles}
+                // style={linkStyles}
                 activeStyle={{
                 background: "darkblue",
                 }}
@@ -37,7 +37,7 @@ function Header(){
             <NavLink
                 to="/MacOS"
                 exact
-                style={linkStyles}
+                // style={linkStyles}
                 activeStyle={{
                 background: "darkblue",
                 }}
@@ -47,7 +47,7 @@ function Header(){
             <NavLink
                 to="/Windows"
                 exact
-                style={linkStyles}
+                // style={linkStyles}
                 activeStyle={{
                 background: "darkblue",
                 }}
@@ -57,7 +57,7 @@ function Header(){
             <NavLink
                 to="/Linux"
                 exact
-                style={linkStyles}
+                // style={linkStyles}
                 activeStyle={{
                 background: "darkblue",
                 }}

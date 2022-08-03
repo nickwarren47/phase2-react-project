@@ -5,7 +5,8 @@ import Windows from "./Windows";
 import Linux from "./Linux";
 import MacOS from './MacOS';
 import {Route, Switch } from "react-router-dom";
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import NavBar from "./NavBar";
+
 
 function App() {
   const [shortCuts, setAllShortCuts] = useState([])
@@ -30,8 +31,8 @@ useEffect(() => {
 
   return (
     <div className="App">
-        
         <Header />
+          <NavBar />
           <Switch>
             <Route path="/Home">
               <Home />
@@ -52,5 +53,10 @@ useEffect(() => {
     </div>
   );
 }
+
+
+
+
+
 
 export default App;
