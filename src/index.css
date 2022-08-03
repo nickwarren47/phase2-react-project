@@ -1,7 +1,13 @@
 .homeCard {
     text-align: center;
 }
-
+#logo{
+    text-align: center;
+    background-color: #2b2d42;
+}
+#root{
+    background-color: #d5bdaf;
+}
 .Card {
     list-style: none;
     margin: 1rem;
