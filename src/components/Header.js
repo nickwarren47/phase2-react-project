@@ -25,6 +25,16 @@ function Header(){
                 Home
             </NavLink>
             <NavLink
+                to="/Home"
+                exact
+                style={linkStyles}
+                activeStyle={{
+                background: "darkblue",
+                }}
+            >
+                Home
+            </NavLink>
+            <NavLink
                 to="/MacOS"
                 exact
                 style={linkStyles}

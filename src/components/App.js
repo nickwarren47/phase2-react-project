@@ -5,6 +5,7 @@ import Windows from "./Windows";
 import Linux from "./Linux";
 import MacOS from './MacOS';
 import {Route, Switch } from "react-router-dom";
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const [shortCuts, setAllShortCuts] = useState([])
