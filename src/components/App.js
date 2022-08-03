@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-// import Header from "./Header";
 import Home from "./Home";
 import Windows from "./Windows";
 import Linux from "./Linux";

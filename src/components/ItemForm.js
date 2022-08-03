@@ -7,8 +7,6 @@ function ItemForm({ onAddShortCut }) {
   const [categoryState, setCategoryState] = useState("");
   const [worksInState, setWorksInState] = useState("");
 
-  const {keyStroke, action, category, worksIn} = onAddShortCut
-
   function handleSubmitShortCuts(e) {
     e.preventDefault();
     fetch("http://localhost:5000/arrayOfShortCuts", {
@@ -17,10 +15,10 @@ function ItemForm({ onAddShortCut }) {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        keyStroke: keyStroke,
-        action: action,
-        category: category,
-        worksin: worksIn,
+        keyStroke: keystrokeState,
+        action: actionState,
+        category: categoryState,
+        worksin: worksInState,
       }),
     })
       .then((res) => res.json())
@@ -34,25 +32,26 @@ function ItemForm({ onAddShortCut }) {
     <label>
       <input
         type="text"
-        keyStroke="keyStroke"
-        value={keystrokeState}
+        name="keyStroke"
+        // value=
         placeholder="Keystroke here..."
-        onChange={(e) => console.log(e.target.value)}
+        onChange={(e) => setKeyStrokeState(e.target.value)}
       />
     </label>
     <label>
       <input
         type="text"
-        name="name"
+        name="action"
         placeholder="Action here..."
-        value={actionState}
+        // value={actionState}
         onChange={(e) => setActionState(e.target.value)}
       />
     </label>
       <label>
         Category:
-        <select name="category" 
-        value={categoryState}
+        <select 
+        name="category" 
+        // value={categoryState}
         onChange={(e) => setCategoryState(e.target.value)}
         >
           <option value="All">Select category</option>
@@ -70,9 +69,9 @@ function ItemForm({ onAddShortCut }) {
         </select>
       </label>
       <label>
-        Works in which environment?:
+        Works in:
         <select name="worksIn" 
-        value={worksInState}
+        // value={worksInState}
         onChange={(e) => setWorksInState(e.target.value)}
         >
           <option value="Macos">MacOS </option>

@@ -2833,7 +2833,11 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
-      "id": "kioLst1"
+      "keyStroke": "test1",
+      "action": "action1",
+      "category": "Search and replace",
+      "worksin": "Linux",
+      "id": "DY9BNbY"
     }
   ],
   "arrayOfSnippets": [
