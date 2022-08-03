@@ -26,10 +26,7 @@ useEffect(() => {
   const macsArray = shortCuts.filter((shortCut) => shortCut.worksIn === "MacOS")
   const windowsArray = shortCuts.filter((shortCut) => shortCut.worksIn === "Windows")
   const linuxArray = shortCuts.filter((shortCut) => shortCut.worksIn === "Linux")
-  // console.log(macArray)
-  // console.log(windowsArray)
-  // console.log(linuxArray)
-  
+
   return (
     <div className="App">
         
