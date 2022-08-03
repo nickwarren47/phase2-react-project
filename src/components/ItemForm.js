@@ -1,13 +1,12 @@
 import React from "react";
+import { Route } from "react-router-dom";
 
 function ItemForm() {
 
   return (
-    <div>
-        <button>
-          Add new keys
-        </button>
-    </div>
+    <Route>
+        <input placeholder="put stuff"></input>
+    </Route>
   );
 }
 
