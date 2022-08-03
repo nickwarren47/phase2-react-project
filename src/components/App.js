@@ -52,9 +52,9 @@ useEffect(() => {
         {/* <Header /> */}
           <NavBar />
           <Switch>
-              <Route path="/Home">
-                <Home />
-              </Route>
+            <Route path="/Home">
+              <Home />
+            </Route>
             <Route path="/MacOS">
               <Card.Group itemsPerRow={4}>
                 <Search onChange={handleSearchQuery}/>
