@@ -1,12 +1,89 @@
-import React from "react";
-import { Route } from "react-router-dom";
+import React, { useState } from "react";
 
-function ItemForm() {
+function ItemForm({ onAddShortCut }) {
+
+  const [keystrokeState, setKeyStrokeState] = useState("");
+  const [actionState, setActionState] = useState("");
+  const [categoryState, setCategoryState] = useState("");
+  const [worksInState, setWorksInState] = useState("");
+
+  const {keyStroke, action, category, worksIn} = onAddShortCut
+
+  function handleSubmitShortCuts(e) {
+    e.preventDefault();
+    fetch("http://localhost:5000/arrayOfShortCuts", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        keyStroke: keyStroke,
+        action: action,
+        category: category,
+        worksin: worksIn,
+      }),
+    })
+      .then((res) => res.json())
+      .then((newShortCut) => onAddShortCut(newShortCut));
+  }
 
   return (
-    <Route>
-        <input placeholder="put stuff"></input>
-    </Route>
+    <div className="new-shortCut-form">
+    <h2>New Shortcut</h2>
+    <form onSubmit={handleSubmitShortCuts}>
+    <label>
+      <input
+        type="text"
+        keyStroke="keyStroke"
+        value={keystrokeState}
+        placeholder="Keystroke here..."
+        onChange={(e) => console.log(e.target.value)}
+      />
+    </label>
+    <label>
+      <input
+        type="text"
+        name="name"
+        placeholder="Action here..."
+        value={actionState}
+        onChange={(e) => setActionState(e.target.value)}
+      />
+    </label>
+      <label>
+        Category:
+        <select name="category" 
+        value={categoryState}
+        onChange={(e) => setCategoryState(e.target.value)}
+        >
+          <option value="All">Select category</option>
+          <option value="General">General</option>
+          <option value="Basic Editing">Basic editing</option>
+          <option value="Multi-cursor and selection">Multi-cursor and selection</option>
+          <option value="Search and replace">Search and replace</option>
+          <option value="Rich languages editing">Rich languages editing</option>
+          <option value="Navigation">Navigation</option>
+          <option value="Editor management">Editor management</option>
+          <option value="File management">File management</option>
+          <option value="Display">Display</option>
+          <option value="Debug">Debug</option>
+          <option value="Integrated Terminal">Integrated terminal</option>
+        </select>
+      </label>
+      <label>
+        Works in which environment?:
+        <select name="worksIn" 
+        value={worksInState}
+        onChange={(e) => setWorksInState(e.target.value)}
+        >
+          <option value="Macos">MacOS </option>
+          <option value="Windows">Windows</option>
+          <option value="Linux">Linux</option>
+        </select>
+      </label> 
+  
+      <button type="submit">Add Shortcut</button>
+    </form>
+  </div>
   );
 }
 

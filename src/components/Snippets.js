@@ -2,8 +2,8 @@ import React from 'react'
 import { Card } from 'semantic-ui-react'
 
 function Snippets({ snippet }) {
-    console.log(snippet)
-  return (
+
+    return (
     <Card className="Card">
     <Card.Content>
       <Card.Header>{snippet.prefix}</Card.Header>
