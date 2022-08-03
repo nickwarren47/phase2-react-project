@@ -36,6 +36,12 @@ function NavBar(){
             onClick={() => setActiveItem("Snippets")}>
             <Link to="/Snippets">Snippets</Link>
           </Menu.Item>
+          <Menu.Item
+            name='Form'
+            active={activeItem === 'Form'}
+            onClick={() => setActiveItem("Form")}>
+            <Link to="/Form">Form</Link>
+          </Menu.Item>
         </Menu>
     )
 }
