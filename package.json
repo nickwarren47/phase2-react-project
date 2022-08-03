@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "PORT=4000 react-scripts start",
-    "server": "json-server ./db/db.json --watch",
+    "server": "json-server db.json -p=5000 --watch",
     "seed": "node ./db/seed.js"
   },
   "eslintConfig": {

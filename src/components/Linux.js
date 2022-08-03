@@ -1,13 +1,13 @@
 import React from 'react'
 
-function MacOS({ mac }) {
-    const {
-        keyStroke, 
-        action, 
-        worksIn, 
-        category
-    } = mac
-
+function Linux( {linux} ) {
+  const {
+    keyStroke, 
+    action, 
+    worksIn, 
+    category
+} = linux
+  
   return (
     <div>
         <h1>{keyStroke}</h1>
@@ -18,4 +18,4 @@ function MacOS({ mac }) {
   )
 }
 
-export default MacOS
+export default Linux
