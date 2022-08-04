@@ -10,7 +10,7 @@ function Windows({ window }) {
     } = window
       
   return (
-  <Card>
+  <Card className="windows-card">
     <Card.Content>
       <Card.Header>{keyStroke}</Card.Header>
       <Card.Meta>

@@ -10,6 +10,19 @@
 #root{
     background-color: #d5bdaf;
 }
+
+.Card{
+    margin: 20px; 
+}
+
+#mission{
+    margin: 20px;
+}
+
+.windows-card{
+    margin: 20px; 
+}
+
 #developer-cards{
     margin: 10px;
 }

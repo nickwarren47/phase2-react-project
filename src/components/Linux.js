@@ -10,7 +10,7 @@ function Linux({ linux }) {
     } = linux
       
   return (
-  <Card>
+  <Card className="linux-card">
     <Card.Content>
       <Card.Header>{keyStroke}</Card.Header>
       <Card.Meta>
