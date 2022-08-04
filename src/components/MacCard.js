@@ -3,7 +3,7 @@ import { Card } from 'semantic-ui-react'
 
 function MacCard({ mac }) {
     const {keyStroke, action, category} = mac
-      
+  
   return (
       <Card className="Card">
         <Card.Content>
