@@ -18,7 +18,7 @@ function ItemForm({ onAddShortCut }) {
         keyStroke: keystrokeState,
         action: actionState,
         category: categoryState,
-        worksin: worksInState,
+        worksIn: worksInState,
       }),
     })
       .then((res) => res.json())

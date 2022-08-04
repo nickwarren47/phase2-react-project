@@ -2836,8 +2836,92 @@
       "keyStroke": "test1",
       "action": "action1",
       "category": "Search and replace",
-      "worksin": "Linux",
+      "worksIn": "Linux",
       "id": "DY9BNbY"
+    },
+    {
+      "keyStroke": "test",
+      "action": "test",
+      "category": "Multi-cursor and selection",
+      "worksIn": "Windows",
+      "id": "IZklFon"
+    },
+    {
+      "keyStroke": "test",
+      "action": "test",
+      "category": "General",
+      "worksIn": "Windows",
+      "id": "XWN9F4h"
+    },
+    {
+      "keyStroke": "test",
+      "action": "test",
+      "category": "General",
+      "worksIn": "Windows",
+      "id": "lk9InDX"
+    },
+    {
+      "keyStroke": "test",
+      "action": "test",
+      "category": "Rich languages editing",
+      "worksIn": "",
+      "id": "QTGBMub"
+    },
+    {
+      "keyStroke": "test",
+      "action": "test",
+      "category": "Search and replace",
+      "worksIn": "Windows",
+      "id": "iDZmvBF"
+    },
+    {
+      "keyStroke": "test2",
+      "action": "test2",
+      "category": "Basic Editing",
+      "worksIn": "Windows",
+      "id": "-f1JL1T"
+    },
+    {
+      "keyStroke": "test",
+      "action": "test",
+      "category": "General",
+      "worksIn": "",
+      "id": "y15XlmN"
+    },
+    {
+      "keyStroke": "test",
+      "action": "test",
+      "category": "General",
+      "worksIn": "",
+      "id": "7XcllR1"
+    },
+    {
+      "keyStroke": "test",
+      "action": "test",
+      "category": "General",
+      "worksIn": "",
+      "id": "pFB7Lp9"
+    },
+    {
+      "keyStroke": "mactest",
+      "action": "mactest",
+      "category": "General",
+      "worksIn": "",
+      "id": "wzvdD7i"
+    },
+    {
+      "keyStroke": "mactest",
+      "action": "mactest",
+      "category": "General",
+      "worksIn": "",
+      "id": "Ki5CTTN"
+    },
+    {
+      "keyStroke": "linuxtest",
+      "action": "test",
+      "category": "General",
+      "worksIn": "Linux",
+      "id": "C7KP4OC"
     }
   ],
   "arrayOfSnippets": [

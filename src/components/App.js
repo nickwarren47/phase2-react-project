@@ -12,7 +12,7 @@ import FilterCategory from "./FilterCategory";
 
 
 function App() {
-  const [shortCuts, setAllShortCuts] = useState([])
+  const [shortCuts, setShortCuts] = useState([])
   const [snippets, setSnippets] = useState([])
   const [searchQuery, setSearchQuery] = useState("")
   const [selectedCategory, setSelectedCategory] = useState("All")
@@ -21,7 +21,7 @@ function App() {
 useEffect(() => {
     fetch('http://localhost:5000/arrayOfShortCuts')
     .then(res => res.json())
-    .then((shortCuts) => setAllShortCuts(shortCuts))
+    .then((shortCuts) => setShortCuts(shortCuts))
 }, [])
   
 useEffect(() => {
@@ -32,7 +32,8 @@ useEffect(() => {
 
   function handleAddShortCut(newShortCut) {
     const updatedShortCutArray = [...shortCuts, newShortCut];
-    setAllShortCuts(updatedShortCutArray);
+    setShortCuts(updatedShortCutArray);
+    console.log(updatedShortCutArray)
   }
 
   function handleChange(e){
@@ -53,7 +54,6 @@ useEffect(() => {
   const snippetsToDisplay = snippets.filter((snippet) => 
     snippet.action.toLowerCase().includes(searchQuery.toLowerCase()))
 
-  console.log(windowsArray)
 
   const displayedMacTiles = macsArray
   .filter((mac) => selectedCategory === "All" || mac.category === selectedCategory)
@@ -70,7 +70,7 @@ useEffect(() => {
   .filter((linuxTile) => linuxTile.action.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
-  
+  console.log(displayedWindowsTiles)
  
   return (
     <div className="">
