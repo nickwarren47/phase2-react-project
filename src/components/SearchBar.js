@@ -12,7 +12,7 @@ function Search({ onChange }) {
       <input
         type="text"
         id="search"
-        placeholder="search free stuff"
+        placeholder="search action"
         onChange={onChange}
       />
       <button type="submit">🔑</button>

@@ -76,7 +76,7 @@ useEffect(() => {
     <div className="">
           <NavBar />
           <Switch>
-            <Route path="/Home">
+            <Route exact path="/">
               <Home />
             </Route>
             <Route path="/MacOS">
@@ -99,7 +99,7 @@ useEffect(() => {
             <Search onSearch={handleChange}/>
               <SnippetsListing snippets={snippetsToDisplay}/>
             </Route>
-            <Route path="/Form">
+            <Route className="form" path="/Form">
               <ItemForm onAddShortCut={handleAddShortCut}/>
             </Route>
           </Switch>
