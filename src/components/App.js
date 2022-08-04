@@ -1,19 +1,22 @@
 import React, { useEffect, useState } from "react";
 import Home from "./Home";
-import Windows from "./Windows";
-import Linux from "./Linux";
-import MacOS from './MacOS';
-import Snippets from "./Snippets";
-import {Route, Switch } from "react-router-dom";
+import WindowsListings from "./WindowsListings"
+import LinuxListings from "./LinuxListings"
+import SnippetsListing from "./SnippetsListing"
+import {Route} from "react-router-dom";
 import NavBar from "./NavBar";
 import ItemForm from "./ItemForm";
-import { Search, Card } from "semantic-ui-react";
+import Search from "./SearchBar"
+import MacListings from "./MacListings"
+import FilterCategory from "./FilterCategory";
 
 
 function App() {
   const [shortCuts, setAllShortCuts] = useState([])
   const [snippets, setSnippets] = useState([])
   const [searchQuery, setSearchQuery] = useState("")
+  const [selectedCategory, setSelectedCategory] = useState("All")
+
 
 useEffect(() => {
     fetch('http://localhost:5000/arrayOfShortCuts')
@@ -32,60 +35,68 @@ useEffect(() => {
     setAllShortCuts(updatedShortCutArray);
   }
 
+  function handleChange(e){
+    setSearchQuery(e.target.value)
+  }
+
+  function handleCategoryChange(e) {
+    setSelectedCategory(e.target.value);
+  }
+
   const macsArray = shortCuts.filter((shortCut) => shortCut.worksIn === "MacOS")
   const windowsArray = shortCuts.filter((shortCut) => shortCut.worksIn === "Windows")
   const linuxArray = shortCuts.filter((shortCut) => shortCut.worksIn === "Linux")
+  // const filteredItemsToDisplay = macsArray.filter((mac) => searchState === "All" || mac.category === searchState)
 
-  const macsArraySearched = macsArray
-  .filter((mac) => mac.action.toLowerCase().includes(searchQuery.toLowerCase()))
+  const snippetsToDisplay = snippets.filter((snippet) => 
+    snippet.action.toLowerCase().includes(searchQuery.toLowerCase()))
 
-  const snippetsToDisplay = snippets
-  .filter((snippet) => snippet.action.toLowerCase().includes(searchQuery.toLowerCase()))
+  console.log(windowsArray)
 
-  function handleSearchQuery(event){
-    console.log(event.target.value)
-  }
+  const displayedMacTiles = macsArray
+  .filter((mac) => selectedCategory === "All" || mac.category === selectedCategory)
+  .filter((macTile) => macTile.action.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
+  const displayedWindowsTiles = windowsArray
+  .filter((window) => selectedCategory === "All" || window.category === selectedCategory)
+  .filter((windowsTile) => windowsTile.action.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
+  const displayedLinuxTiles = linuxArray
+  .filter((linux) => selectedCategory === "All" || linux.category === selectedCategory)
+  .filter((linuxTile) => linuxTile.action.toLowerCase().includes(searchQuery.toLowerCase())
+  );
  
   return (
     <div className="">
-        {/* <Header /> */}
           <NavBar />
-          <Switch>
-            <Route path="/Home">
+            <Route exact path="/">
               <Home />
             </Route>
             <Route path="/MacOS">
-              <Card.Group itemsPerRow={4}>
-                <Search onChange={handleSearchQuery}/>
-                  {macsArraySearched.map((mac) => (
-                  <MacOS mac={mac}/>))}
-              </Card.Group>
+              <FilterCategory handleCategoryChange={handleCategoryChange} />
+              <Search onChange={handleChange}/>
+              <MacListings macsArray={displayedMacTiles} />
             </Route>
             <Route path="/Windows">
-              <Card.Group itemsPerRow={4}>
-                <Search />
-                  {windowsArray.map((window) => (
-                  <Windows window={window}/>))}
-              </Card.Group>
+              <FilterCategory handleCategoryChange={handleCategoryChange} />
+              <Search onSearch={handleChange}/>
+              <WindowsListings windowsArray={displayedWindowsTiles} />
             </Route>
             <Route path="/Linux">
-              <Card.Group itemsPerRow={4}>
-                <Search />
-                  {linuxArray.map((linux) => (
-                  <Linux linux={linux}/>))}
-              </Card.Group>
+              <FilterCategory handleCategoryChange={handleCategoryChange} />
+              <Search onSearch={handleChange}/>
+              <LinuxListings linuxArray={displayedLinuxTiles} />
             </Route>
             <Route path="/Snippets">
-              <Card.Group itemsPerRow={4}>
-                <Search />
-                  {snippetsToDisplay.map((snippet) => (
-                  <Snippets snippet={snippet}/>))}
-              </Card.Group>
+              <FilterCategory handleCategoryChange={handleCategoryChange} />
+              <Search onSearch={handleChange}/>
+              <SnippetsListing snippets={snippetsToDisplay}/>
             </Route>
             <Route path="/Form">
               <ItemForm onAddShortCut={handleAddShortCut}/>
             </Route>
-          </Switch>
     </div>
   );
 }

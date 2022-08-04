@@ -3,14 +3,14 @@ import { Menu } from 'semantic-ui-react'
 import {Link} from 'react-router-dom'
 
 function NavBar(){
-    const [activeItem, setActiveItem] = useState("Home")
+    const [activeItem, setActiveItem] = useState("/")
     return (
-        <Menu>
+      <Menu>
           <Menu.Item
             name='Home'
             active={activeItem === 'Home'}
             onClick={() => setActiveItem("Home")}>
-            <Link to="/Home">Home</Link>
+            <Link to="/">Home</Link>
           </Menu.Item>
           <Menu.Item
             name='MacOS'

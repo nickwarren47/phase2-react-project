@@ -1,14 +1,9 @@
 import React from 'react'
 import { Card } from 'semantic-ui-react'
 
-function MacOS({ mac }) {
-    const {
-        keyStroke, 
-        action, 
-        // worksIn, 
-        category
-    } = mac
-      
+function MacCard({ mac }) {
+    const {keyStroke, action, category} = mac
+  
   return (
       <Card className="Card">
         <Card.Content>
@@ -26,4 +21,4 @@ function MacOS({ mac }) {
   )
 }
 
-export default MacOS;
+export default MacCard;

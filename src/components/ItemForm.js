@@ -8,7 +8,7 @@ function ItemForm({ onAddShortCut }) {
   const [worksInState, setWorksInState] = useState("");
 
   function handleSubmitShortCuts(e) {
-    e.preventDefault();
+    // e.preventDefault();
     fetch("http://localhost:5000/arrayOfShortCuts", {
       method: "POST",
       headers: {

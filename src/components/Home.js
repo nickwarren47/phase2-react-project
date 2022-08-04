@@ -6,7 +6,7 @@ function Home() {
     <div className='homeCard'>
       <h1>Welcome to Coder's Keys!</h1>
       <Image src='https://user-images.githubusercontent.com/106715328/182723100-5c4e44b5-2df1-4c6f-b918-3c7d485d998b.png' size='medium' circular centered/>
-      <h2>Coder's Keys Mission Statement</h2>
+      <h2 id="mission">Coder's Keys Mission Statement</h2>
       <p>At Coder's Keys we are committed to providing coders with the 
         ability to produce superior code with no hastle. The best thing to do 
         that? Using shortcut keys of course! Every coder has their favorite 
