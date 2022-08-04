@@ -1,13 +1,8 @@
 import React from 'react'
 import { Card } from 'semantic-ui-react'
 
-function Linux({ linux }) {
-    const {
-        keyStroke, 
-        action, 
-        // worksIn, 
-        category
-    } = linux
+function LinuxCard({ linux }) {
+    const {keyStroke, action, category} = linux
       
   return (
   <Card>
@@ -26,4 +21,4 @@ function Linux({ linux }) {
   )
 }
 
-export default Linux
+export default LinuxCard;

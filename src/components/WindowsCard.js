@@ -1,16 +1,11 @@
 import React from 'react'
 import { Card } from 'semantic-ui-react'
 
-function Windows({ window }) {
-    const {
-        keyStroke, 
-        action, 
-        // worksIn, 
-        category
-    } = window
+function WindowsCard({ windows }) {
+    const {keyStroke, action, category} = windows
       
   return (
-  <Card>
+  <Card className="Card">
     <Card.Content>
       <Card.Header>{keyStroke}</Card.Header>
       <Card.Meta>
@@ -26,4 +21,4 @@ function Windows({ window }) {
   )
 }
 
-export default Windows
+export default WindowsCard;

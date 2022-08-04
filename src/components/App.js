@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from "react";
 // import Header from "./Header";
 import Home from "./Home";
-import Windows from "./Windows";
-import Linux from "./Linux";
-import MacOS from './MacOS';
-import Snippets from "./Snippets";
+import WindowsListings from "./WindowsListings"
+import LinuxListings from "./LinuxListings"
+import SnippetsListing from "./SnippetsListing"
 import {Route, Switch } from "react-router-dom";
 import NavBar from "./NavBar";
 import ItemForm from "./ItemForm";
-import { Search, Card } from "semantic-ui-react";
+import Search from "./SearchBar"
+import MacListings from "./MacListings"
 
 
 function App() {
@@ -17,13 +17,13 @@ function App() {
   const [searchQuery, setSearchQuery] = useState("")
 
 useEffect(() => {
-    fetch('http://localhost:5000/arrayOfShortCuts')
+    fetch('http://localhost:3000/arrayOfShortCuts')
     .then(res => res.json())
     .then((shortCuts) => setAllShortCuts(shortCuts))
 }, [])
   
 useEffect(() => {
-    fetch('http://localhost:5000/arrayOfSnippets')
+    fetch('http://localhost:3000/arrayOfSnippets')
     .then(res => res.json())
     .then((snippetsData) => setSnippets(snippetsData))
 }, []) 
@@ -37,51 +37,47 @@ useEffect(() => {
   const windowsArray = shortCuts.filter((shortCut) => shortCut.worksIn === "Windows")
   const linuxArray = shortCuts.filter((shortCut) => shortCut.worksIn === "Linux")
 
-  const macsArraySearched = macsArray
-  .filter((mac) => mac.action.toLowerCase().includes(searchQuery.toLowerCase()))
+  const snippetsToDisplay = snippets.filter((snippet) => 
+    snippet.action.toLowerCase().includes(searchQuery.toLowerCase()))
 
-  const snippetsToDisplay = snippets
-  .filter((snippet) => snippet.action.toLowerCase().includes(searchQuery.toLowerCase()))
+  console.log(windowsArray)
 
-  function handleSearchQuery(event){
-    console.log(event.target.value)
-  }
+  const displayedMacTiles = macsArray.filter((macTile) => 
+    macTile.action.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
+  const displayedWindowsTiles = windowsArray.filter((windowsTile) => 
+    windowsTile.action.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
+  const displayedLinuxTiles = linuxArray.filter((linuxTile) => 
+    linuxTile.action.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
+  
  
   return (
     <div className="">
-        {/* <Header /> */}
           <NavBar />
           <Switch>
               <Route path="/Home">
                 <Home />
               </Route>
             <Route path="/MacOS">
-              <Card.Group itemsPerRow={4}>
-                <Search onChange={handleSearchQuery}/>
-                  {macsArraySearched.map((mac) => (
-                  <MacOS mac={mac}/>))}
-              </Card.Group>
+            <Search onSearch={setSearchQuery}/>
+              <MacListings macsArray={displayedMacTiles} />
             </Route>
             <Route path="/Windows">
-              <Card.Group itemsPerRow={4}>
-                <Search />
-                  {windowsArray.map((window) => (
-                  <Windows window={window}/>))}
-              </Card.Group>
+            <Search onSearch={setSearchQuery}/>
+             <WindowsListings windowsArray={displayedWindowsTiles} />
             </Route>
             <Route path="/Linux">
-              <Card.Group itemsPerRow={4}>
-                <Search />
-                  {linuxArray.map((linux) => (
-                  <Linux linux={linux}/>))}
-              </Card.Group>
+            <Search onSearch={setSearchQuery}/>
+              <LinuxListings linuxArray={displayedLinuxTiles} />
             </Route>
             <Route path="/Snippets">
-              <Card.Group itemsPerRow={4}>
-                <Search />
-                  {snippetsToDisplay.map((snippet) => (
-                  <Snippets snippet={snippet}/>))}
-              </Card.Group>
+            <Search onSearch={setSearchQuery}/>
+              <SnippetsListing snippets={snippetsToDisplay}/>
             </Route>
             <Route path="/Form">
               <ItemForm onAddShortCut={handleAddShortCut}/>
