@@ -17,13 +17,13 @@ function App() {
   const [searchQuery, setSearchQuery] = useState("")
 
 useEffect(() => {
-    fetch('http://localhost:3000/arrayOfShortCuts')
+    fetch('http://localhost:5000/arrayOfShortCuts')
     .then(res => res.json())
     .then((shortCuts) => setAllShortCuts(shortCuts))
 }, [])
   
 useEffect(() => {
-    fetch('http://localhost:3000/arrayOfSnippets')
+    fetch('http://localhost:5000/arrayOfSnippets')
     .then(res => res.json())
     .then((snippetsData) => setSnippets(snippetsData))
 }, []) 
@@ -31,6 +31,10 @@ useEffect(() => {
   function handleAddShortCut(newShortCut) {
     const updatedShortCutArray = [...shortCuts, newShortCut];
     setAllShortCuts(updatedShortCutArray);
+  }
+
+  function handleChange(e){
+    setSearchQuery(e.target.value)
   }
 
   const macsArray = shortCuts.filter((shortCut) => shortCut.worksIn === "MacOS")
@@ -64,19 +68,19 @@ useEffect(() => {
                 <Home />
               </Route>
             <Route path="/MacOS">
-            <Search onSearch={setSearchQuery}/>
+            <Search onChange={handleChange}/>
               <MacListings macsArray={displayedMacTiles} />
             </Route>
             <Route path="/Windows">
-            <Search onSearch={setSearchQuery}/>
+            <Search onSearch={handleChange}/>
              <WindowsListings windowsArray={displayedWindowsTiles} />
             </Route>
             <Route path="/Linux">
-            <Search onSearch={setSearchQuery}/>
+            <Search onSearch={handleChange}/>
               <LinuxListings linuxArray={displayedLinuxTiles} />
             </Route>
             <Route path="/Snippets">
-            <Search onSearch={setSearchQuery}/>
+            <Search onSearch={handleChange}/>
               <SnippetsListing snippets={snippetsToDisplay}/>
             </Route>
             <Route path="/Form">
