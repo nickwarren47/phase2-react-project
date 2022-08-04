@@ -5,7 +5,7 @@ function WindowsCard({ windows }) {
     const {keyStroke, action, category} = windows
       
   return (
-  <Card className="Card">
+  <Card className="windows-card">
     <Card.Content>
       <Card.Header>{keyStroke}</Card.Header>
       <Card.Meta>

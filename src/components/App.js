@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-// import Header from "./Header";
 import Home from "./Home";
 import WindowsListings from "./WindowsListings"
 import LinuxListings from "./LinuxListings"
@@ -64,9 +63,9 @@ useEffect(() => {
     <div className="">
           <NavBar />
           <Switch>
-              <Route path="/Home">
-                <Home />
-              </Route>
+            <Route path="/Home">
+              <Home />
+            </Route>
             <Route path="/MacOS">
             <Search onChange={handleChange}/>
               <MacListings macsArray={displayedMacTiles} />

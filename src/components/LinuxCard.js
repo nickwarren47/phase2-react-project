@@ -5,7 +5,7 @@ function LinuxCard({ linux }) {
     const {keyStroke, action, category} = linux
       
   return (
-  <Card>
+  <Card className="linux-card">
     <Card.Content>
       <Card.Header>{keyStroke}</Card.Header>
       <Card.Meta>
