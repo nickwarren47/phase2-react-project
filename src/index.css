@@ -10,8 +10,29 @@
 #root{
     background-color: #d5bdaf;
 }
-#macos-identifier{
-    font-size: 30px;
+.macos-identifier{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 17%;
+}
+.linux-identifier{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 13%;
+}
+.windows-identifier{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+.snippets-identifier{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
 }
 #mission{
     margin-left: 300px;
