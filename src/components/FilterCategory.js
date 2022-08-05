@@ -5,7 +5,8 @@ function FilterCategory({handleCategoryChange}) {
     
   return (
   <div>
-    <select name="filter" onChange={handleCategoryChange}>
+    <label>
+    <select className="filter-snippet" name="filter" onChange={handleCategoryChange}>
       <option value="All">Select category</option>
       <option value="General">General</option>
       <option value="Basic Editing">Basic editing</option>
@@ -19,6 +20,7 @@ function FilterCategory({handleCategoryChange}) {
       <option value="Debug">Debug</option>
       <option value="Integrated Terminal">Integrated terminal</option>
     </select>
+    </label>
   </div>
   )
 }
