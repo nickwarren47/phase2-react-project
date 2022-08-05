@@ -2922,6 +2922,55 @@
       "category": "General",
       "worksIn": "Linux",
       "id": "C7KP4OC"
+    },
+    {
+      "keyStroke": "mactest",
+      "action": "mactest",
+      "category": "Multi-cursor and selection",
+      "worksIn": "",
+      "id": "dYAjiJ9"
+    },
+    {
+      "keyStroke": "linuxtest",
+      "action": "linuxtest",
+      "category": "General",
+      "worksIn": "Linux",
+      "id": "8rVaxv1"
+    },
+    {
+      "keyStroke": "test3",
+      "action": "test3",
+      "category": "Basic Editing",
+      "worksIn": "Linux",
+      "id": "Qm9wSaz"
+    },
+    {
+      "keyStroke": "wintest2",
+      "action": "wintest2",
+      "category": "General",
+      "worksIn": "Windows",
+      "id": "BjfNO15"
+    },
+    {
+      "keyStroke": "mactest5",
+      "action": "mactest5",
+      "category": "Display",
+      "worksIn": "",
+      "id": "Eo8WjAy"
+    },
+    {
+      "keyStroke": "mactest3",
+      "action": "mactest2",
+      "category": "General",
+      "worksIn": "",
+      "id": "9_xek19"
+    },
+    {
+      "keyStroke": "mactest",
+      "action": "mactest",
+      "category": "General",
+      "worksIn": "MacOS",
+      "id": "6w1QcbO"
     }
   ],
   "arrayOfSnippets": [

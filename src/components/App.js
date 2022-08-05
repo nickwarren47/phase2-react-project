@@ -19,13 +19,13 @@ function App() {
 
 
 useEffect(() => {
-    fetch('http://localhost:5000/arrayOfShortCuts')
+    fetch('http://localhost:3000/arrayOfShortCuts')
     .then(res => res.json())
     .then((shortCuts) => setShortCuts(shortCuts))
 }, [])
   
 useEffect(() => {
-    fetch('http://localhost:5000/arrayOfSnippets')
+    fetch('http://localhost:3000/arrayOfSnippets')
     .then(res => res.json())
     .then((snippetsData) => setSnippets(snippetsData))
 }, []) 
@@ -86,17 +86,17 @@ useEffect(() => {
             </Route>
             <Route path="/Windows">
             <FilterCategory handleCategoryChange={handleCategoryChange} />
-            <Search onSearch={handleChange}/>
+            <Search onChange={handleChange}/>
              <WindowsListings windowsArray={displayedWindowsTiles} />
             </Route>
             <Route path="/Linux">
             <FilterCategory handleCategoryChange={handleCategoryChange} />
-            <Search onSearch={handleChange}/>
+            <Search onChange={handleChange}/>
               <LinuxListings linuxArray={displayedLinuxTiles} />
             </Route>
             <Route path="/Snippets">
             <FilterCategory handleCategoryChange={handleCategoryChange} />
-            <Search onSearch={handleChange}/>
+            <Search onChange={handleChange}/>
               <SnippetsListing snippets={snippetsToDisplay}/>
             </Route>
             <Route path="/Form">

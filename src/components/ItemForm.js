@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { Button, Checkbox, Form } from 'semantic-ui-react'
+
 
 function ItemForm({ onAddShortCut }) {
 
@@ -7,9 +9,8 @@ function ItemForm({ onAddShortCut }) {
   const [categoryState, setCategoryState] = useState("");
   const [worksInState, setWorksInState] = useState("");
 
-  function handleSubmitShortCuts(e) {
-    e.preventDefault();
-    fetch("http://localhost:5000/arrayOfShortCuts", {
+  function handleSubmitShortCuts() {
+    fetch("http://localhost:3000/arrayOfShortCuts", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -26,6 +27,7 @@ function ItemForm({ onAddShortCut }) {
   }
 
   return (
+ 
     <div className="new-shortCut-form">
     <h2>New Shortcut</h2>
     <form onSubmit={handleSubmitShortCuts}>
@@ -74,7 +76,8 @@ function ItemForm({ onAddShortCut }) {
         // value={worksInState}
         onChange={(e) => setWorksInState(e.target.value)}
         >
-          <option value="Macos">MacOS </option>
+          <option value="All">Select System</option>
+          <option value="MacOS">MacOS</option>
           <option value="Windows">Windows</option>
           <option value="Linux">Linux</option>
         </select>
