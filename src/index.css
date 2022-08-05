@@ -10,6 +10,14 @@
 #root{
     background-color: #d5bdaf;
 }
+.search-snippet{
+    margin: 0 auto;
+    display: block;
+}
+.searchbar{
+    margin: 0 auto;
+    display: block; 
+}
 .macos-identifier{
     display: block;
     margin-left: auto;

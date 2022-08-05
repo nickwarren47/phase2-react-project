@@ -9,15 +9,17 @@ function Search({ onChange }) {
   }
 
   return (
-    <form className="searchbar" onSubmit={handleSubmit}>
-      <input
-        type="text"
-        id="search"
-        placeholder="search action"
-        onChange={onChange}
-      />
-      <button type="submit">🔑</button>
-    </form>
+    <label>
+      <form className="searchbar" onSubmit={handleSubmit}>
+        <input
+          type="text"
+          id="search"
+          placeholder="search action"
+          onChange={onChange}
+        />
+        <button type="submit">🔑</button>
+      </form>
+    </label>
   );
 }
 
