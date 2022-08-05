@@ -2831,48 +2831,6 @@
       "category": "Integrated Terminal",
       "worksIn": "Linux",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
-    },
-    {
-      "keyStroke": "mac test",
-      "action": "dsaaadsf",
-      "category": "General",
-      "worksIn": "MacOS",
-      "id": "wX7FfZw"
-    },
-    {
-      "keyStroke": "test",
-      "action": "dsagdf",
-      "category": "Navigation",
-      "worksIn": "Linux",
-      "id": "n94f4ex"
-    },
-    {
-      "keyStroke": "",
-      "action": "",
-      "category": "",
-      "worksIn": "",
-      "id": "Q1Y1Y_l"
-    },
-    {
-      "keyStroke": "test",
-      "action": "dfgsdfgsdf",
-      "category": "Multi-cursor and selection",
-      "worksIn": "MacOS",
-      "id": "4Bo4GRP"
-    },
-    {
-      "keyStroke": "test 4",
-      "action": "dgddag",
-      "category": "General",
-      "worksIn": "MacOS",
-      "id": "DBbaJLw"
-    },
-    {
-      "keyStroke": "",
-      "action": "",
-      "category": "Select category",
-      "worksIn": "Select System",
-      "id": "H5LPDtL"
     }
   ],
   "arrayOfSnippets": [

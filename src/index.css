@@ -10,22 +10,38 @@
 #root{
     background-color: #d5bdaf;
 }
-
+#macos-identifier{
+    font-size: 30px;
+}
+#mission{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+#mission-statement{
+    text-decoration: underline;
+}
+#welcome-to{
+    font-size: 80px;
+}
+#meet-developers{
+    text-decoration: underline;
+}
 .Card{
     margin: 20px; 
 }
 
-#mission{
-    margin: 20px;
+.new-shortCut-form{
+    padding-left: 20px;
 }
 
 .windows-card{
-    margin: 20px; 
+    padding: 10px; 
 }
 
 #developer-cards{
     margin: 10px;
 }
+
 .Card {
     list-style: none;
     margin: 1rem;

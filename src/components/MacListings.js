@@ -8,10 +8,13 @@ function MacListings({macsArray, handleSearchChange, searchState}) {
     //     mac.action.toLowerCase().includes(parseArray.toLowerCase()))
 
     return(
-        <Card.Group itemsPerRow={4}>
+        <> 
+        <h1 id="macos-identifier">MacOS</h1>
+        <Card.Group itemsPerRow={6}>
             {macsArray.map((mac) => (
             <MacCard mac={mac} handleSearchChange={handleSearchChange} searchState={searchState}/>))}
         </Card.Group>
+        </>
     )
     
 }

@@ -5,7 +5,7 @@ import WindowsCard from "./WindowsCard";
 function WindowsListings({windowsArray}) {
 
     return (
-    <Card.Group itemsPerRow={4}>
+    <Card.Group itemsPerRow={6}>
         {windowsArray.map((windows) => (
         <WindowsCard windows={windows}/>))}
     </Card.Group>
