@@ -1,8 +1,8 @@
 import React from 'react'
-import { Card } from 'semantic-ui-react'
+import { Card, Button } from 'semantic-ui-react'
 
 function LinuxCard({ linux }) {
-    const {keyStroke, action, category} = linux
+    const {keyStroke, action, category, source} = linux
       
   return (
   <Card className="linux-card">
@@ -16,6 +16,9 @@ function LinuxCard({ linux }) {
       <Card.Description>
         Action: {action}
       </Card.Description>
+      <a href={source}>
+        <Button size="mini">Source</Button>
+      </a>
     </Card.Content>
   </Card>
   )
