@@ -14,7 +14,7 @@ function Home() {
         of code will provide easy access to these keys and will hopefully help you
         to rock your coding!
       </h3>
-      <Image.Group size='small' spaced='left'>
+      <Image.Group size='tiny' spaced='left'>
         <Image src="https://user-images.githubusercontent.com/106715328/182726403-7a5235eb-4c79-462b-9a8b-41937ceb8b44.png"/>
         <Image src="https://user-images.githubusercontent.com/106715328/182726762-fc7f8bbe-0314-4363-ba50-a1cd6eea2b07.png" />
         <Image src="https://user-images.githubusercontent.com/106715328/182726829-d3edaa45-864f-4a78-901d-fc8425231f53.png" />

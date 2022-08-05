@@ -6,7 +6,7 @@ function Search({ onChange }) {
 
   return (
     <Form>
-      <Form.Field class="ui category search">
+      <Form.Field size='small' class="ui category search">
         <input
           placeholder='Search Action here ...'
           onChange={onChange}
