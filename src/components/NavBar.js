@@ -1,21 +1,29 @@
-import React from 'react'
-import { Menu } from 'semantic-ui-react'
-import {Link} from 'react-router-dom'
+import React from 'react';
+import { Menu, Icon } from 'semantic-ui-react';
+import {Link} from 'react-router-dom';
 
 function NavBar(){
     return (
-<Menu>
+<Menu className='menu'>
       <Menu.Item>
-        <Link to="/">Home</Link>
+        <Link to="/">
+          <Icon name="home" />
+        </Link>
       </Menu.Item>
       <Menu.Item>
-        <Link to="/MacOS">MacOS</Link>
+        <Link to="/MacOS">
+          <Icon name="apple" />
+        </Link>
       </Menu.Item>
       <Menu.Item>
-        <Link to="/Windows">Windows</Link>
+        <Link to="/Windows">
+          <Icon name="windows" />
+        </Link>
       </Menu.Item>
       <Menu.Item>
-        <Link to="/Linux">Linux</Link>
+        <Link to="/Linux">
+          <Icon name="linux" />
+        </Link>
       </Menu.Item>
       <Menu.Item>
         <Link to="/Snippets">Snippets</Link>

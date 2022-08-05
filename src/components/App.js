@@ -72,7 +72,6 @@ useEffect(() => {
   return (
     <div className="">
       <NavBar />
-      <Switch>
         <Route exact path="/">
           <Home />
         </Route>
@@ -92,7 +91,6 @@ useEffect(() => {
           <LinuxListings linuxArray={displayedLinuxTiles} />
         </Route>
         <Route path="/Snippets">
-        <img src="https://user-images.githubusercontent.com/106715328/183111625-1be41747-e763-4c31-a21e-1453c0465209.png" alt="snippets logo" className="snippets-identifier"/>
         <FilterCategory id="filter-snippet" handleCategoryChange={handleCategoryChange} />
         <Search id="search-snippet" onChange={handleChange}/>
           <SnippetsListing snippets={snippetsToDisplay}/>
@@ -100,7 +98,6 @@ useEffect(() => {
         <Route className="form" path="/Form">
           <ItemForm onAddShortCut={handleAddShortCut}/>
         </Route>
-      </Switch>
     </div>
     
   );
