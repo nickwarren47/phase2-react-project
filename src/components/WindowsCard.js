@@ -1,8 +1,8 @@
 import React from 'react'
-import { Card } from 'semantic-ui-react'
+import { Card, Button } from 'semantic-ui-react'
 
 function WindowsCard({ windows }) {
-    const {keyStroke, action, category} = windows
+    const {keyStroke, action, category, source} = windows
       
   return (
   <Card className="windows-card">
@@ -16,6 +16,9 @@ function WindowsCard({ windows }) {
       <Card.Description>
         Action: {action}
       </Card.Description>
+      <a href={source}>
+        <Button size="mini">Source</Button>
+      </a>
     </Card.Content>
   </Card>
   )

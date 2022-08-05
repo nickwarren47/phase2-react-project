@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card } from 'semantic-ui-react'
+import { Card, Button } from 'semantic-ui-react'
 
 function Snippets({ snippet }) {
 
@@ -15,6 +15,9 @@ function Snippets({ snippet }) {
       <Card.Description>
         Action: {snippet.action}
       </Card.Description>
+      <a href={snippet.Source}>
+        <Button size="mini">Source</Button>
+      </a>
     </Card.Content>
   </Card>
   )

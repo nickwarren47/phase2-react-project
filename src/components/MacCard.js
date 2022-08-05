@@ -1,8 +1,8 @@
 import React from 'react'
-import { Card } from 'semantic-ui-react'
+import { Card, Button } from 'semantic-ui-react'
 
 function MacCard({ mac }) {
-    const {keyStroke, action, category} = mac
+    const {keyStroke, action, category, source} = mac
   
   return (
       <Card className="Card">
@@ -16,6 +16,9 @@ function MacCard({ mac }) {
           <Card.Description>
             Action: {action}
           </Card.Description>
+          <a href={source}>
+            <Button size="mini">Source</Button>
+          </a>
         </Card.Content>
       </Card>
   )

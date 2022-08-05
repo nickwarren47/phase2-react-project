@@ -26,7 +26,7 @@ function NavBar(){
         </Link>
       </Menu.Item>
       <Menu.Item>
-        <Link to="/Snippets">Snippets</Link>
+        <Link to="/Snippets">VSCode Snippets</Link>
       </Menu.Item>
       <Menu.Item>
         <Link to="/Form">Form</Link>
