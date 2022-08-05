@@ -1,4 +1,5 @@
 import React from "react";
+import { Button, Form, Message } from 'semantic-ui-react';
 
 function Search({ onChange }) {
 ;
@@ -12,7 +13,7 @@ function Search({ onChange }) {
       <input
         type="text"
         id="search"
-        placeholder="search free stuff"
+        placeholder="search action"
         onChange={onChange}
       />
       <button type="submit">🔑</button>

@@ -4,14 +4,15 @@ import MacCard from "./MacCard"
 
 function MacListings({macsArray, handleSearchChange, searchState}) {
     console.log(macsArray)
-    // const macsArrayParsed = macsArray.filter((mac) => 
-    //     mac.action.toLowerCase().includes(parseArray.toLowerCase()))
 
     return(
-        <Card.Group itemsPerRow={4}>
+        <> 
+        <img src="https://user-images.githubusercontent.com/106715328/183108857-3872921b-5369-4078-aec5-4ba7a3223f87.png" alt="mac logo" className="macos-identifier"/>
+        <Card.Group itemsPerRow={6}>
             {macsArray.map((mac) => (
             <MacCard mac={mac} handleSearchChange={handleSearchChange} searchState={searchState}/>))}
         </Card.Group>
+        </>
     )
     
 }

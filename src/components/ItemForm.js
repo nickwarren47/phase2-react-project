@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Button, Form, Message } from 'semantic-ui-react'
 
 function ItemForm({ onAddShortCut }) {
 
@@ -8,7 +9,8 @@ function ItemForm({ onAddShortCut }) {
   const [worksInState, setWorksInState] = useState("");
 
   function handleSubmitShortCuts(e) {
-    // e.preventDefault();
+    // console.log(keystrokeState, actionState, categoryState, worksInState)
+    e.preventDefault();
     fetch("http://localhost:5000/arrayOfShortCuts", {
       method: "POST",
       headers: {
@@ -18,28 +20,44 @@ function ItemForm({ onAddShortCut }) {
         keyStroke: keystrokeState,
         action: actionState,
         category: categoryState,
-        worksin: worksInState,
+        worksIn: worksInState,
       }),
     })
       .then((res) => res.json())
-      .then((newShortCut) => onAddShortCut(newShortCut));
+      .then((newShortCut) => onAddShortCut(newShortCut))
+      .then(() => {
+        setKeyStrokeState("")
+        setActionState("")
+        setCategoryState("")
+        setWorksInState("")
+      })
   }
+
+//   <Form success>
+//   <Form.Input label='Email' placeholder='joe@schmoe.com' />
+//   <Message
+//     success
+//     header='Form Completed'
+//     content="You're all signed up for the newsletter"
+//   />
+//   <Button>Submit</Button>
+// </Form>
 
   return (
     <div className="new-shortCut-form">
     <h2>New Shortcut</h2>
-    <form onSubmit={handleSubmitShortCuts}>
+    <Form success onSubmit={handleSubmitShortCuts}>
     <label>
-      <input
+    <Form.Input
         type="text"
         name="keyStroke"
-        // value=
+        // value={keyStroke}
         placeholder="Keystroke here..."
         onChange={(e) => setKeyStrokeState(e.target.value)}
       />
     </label>
     <label>
-      <input
+    <Form.Input
         type="text"
         name="action"
         placeholder="Action here..."
@@ -74,14 +92,15 @@ function ItemForm({ onAddShortCut }) {
         // value={worksInState}
         onChange={(e) => setWorksInState(e.target.value)}
         >
-          <option value="Macos">MacOS </option>
+          <option value="All">Select System </option>
+          <option value="MacOS">MacOS </option>
           <option value="Windows">Windows</option>
           <option value="Linux">Linux</option>
         </select>
       </label> 
   
-      <button type="submit">Add Shortcut</button>
-    </form>
+      <Button type="submit">Add Shortcut</Button>
+    </Form>
   </div>
   );
 }

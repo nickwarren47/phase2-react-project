@@ -2835,9 +2835,9 @@
     {
       "keyStroke": "test1",
       "action": "action1",
-      "category": "Search and replace",
-      "worksin": "Linux",
-      "id": "DY9BNbY"
+      "category": "Multi-cursor and selection",
+      "worksIn": "MacOS",
+      "id": "j4IjKRR"
     }
   ],
   "arrayOfSnippets": [

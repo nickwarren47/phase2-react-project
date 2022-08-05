@@ -12,16 +12,15 @@ import FilterCategory from "./FilterCategory";
 
 
 function App() {
-  const [shortCuts, setAllShortCuts] = useState([])
+  const [shortCuts, setShortCuts] = useState([])
   const [snippets, setSnippets] = useState([])
   const [searchQuery, setSearchQuery] = useState("")
   const [selectedCategory, setSelectedCategory] = useState("All")
 
-
 useEffect(() => {
     fetch('http://localhost:5000/arrayOfShortCuts')
     .then(res => res.json())
-    .then((shortCuts) => setAllShortCuts(shortCuts))
+    .then((shortCuts) => setShortCuts(shortCuts))
 }, [])
   
 useEffect(() => {
@@ -32,7 +31,8 @@ useEffect(() => {
 
   function handleAddShortCut(newShortCut) {
     const updatedShortCutArray = [...shortCuts, newShortCut];
-    setAllShortCuts(updatedShortCutArray);
+    setShortCuts(updatedShortCutArray);
+    console.log(updatedShortCutArray)
   }
 
   function handleChange(e){
@@ -51,7 +51,6 @@ useEffect(() => {
   const snippetsToDisplay = snippets.filter((snippet) => 
     snippet.action.toLowerCase().includes(searchQuery.toLowerCase()))
 
-  console.log(windowsArray)
 
   const displayedMacTiles = macsArray
   .filter((mac) => selectedCategory === "All" || mac.category === selectedCategory)
@@ -67,37 +66,40 @@ useEffect(() => {
   .filter((linux) => selectedCategory === "All" || linux.category === selectedCategory)
   .filter((linuxTile) => linuxTile.action.toLowerCase().includes(searchQuery.toLowerCase())
   );
+
+  console.log(displayedWindowsTiles)
  
   return (
     <div className="">
-          <NavBar />
-            <Route exact path="/">
-              <Home />
-            </Route>
-            <Route path="/MacOS">
-              <FilterCategory handleCategoryChange={handleCategoryChange} />
-              <Search onChange={handleChange}/>
-              <MacListings macsArray={displayedMacTiles} />
-            </Route>
-            <Route path="/Windows">
-              <FilterCategory handleCategoryChange={handleCategoryChange} />
-              <Search onSearch={handleChange}/>
-              <WindowsListings windowsArray={displayedWindowsTiles} />
-            </Route>
-            <Route path="/Linux">
-              <FilterCategory handleCategoryChange={handleCategoryChange} />
-              <Search onSearch={handleChange}/>
-              <LinuxListings linuxArray={displayedLinuxTiles} />
-            </Route>
-            <Route path="/Snippets">
-              <FilterCategory handleCategoryChange={handleCategoryChange} />
-              <Search onSearch={handleChange}/>
-              <SnippetsListing snippets={snippetsToDisplay}/>
-            </Route>
-            <Route path="/Form">
-              <ItemForm onAddShortCut={handleAddShortCut}/>
-            </Route>
+      <NavBar />
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/MacOS">
+          <FilterCategory handleCategoryChange={handleCategoryChange} />
+          <Search onChange={handleChange}/>
+          <MacListings macsArray={displayedMacTiles} />
+        </Route>
+        <Route path="/Windows">
+          <FilterCategory handleCategoryChange={handleCategoryChange} />
+          <Search onChange={handleChange}/>
+          <WindowsListings windowsArray={displayedWindowsTiles} />
+        </Route>
+        <Route path="/Linux">
+          <FilterCategory handleCategoryChange={handleCategoryChange} />
+          <Search onChange={handleChange}/>
+          <LinuxListings linuxArray={displayedLinuxTiles} />
+        </Route>
+        <Route path="/Snippets">
+          <FilterCategory handleCategoryChange={handleCategoryChange} />
+          <Search onChange={handleChange}/>
+          <SnippetsListing snippets={snippetsToDisplay}/>
+        </Route>
+        <Route className="form" path="/Form">
+          <ItemForm onAddShortCut={handleAddShortCut}/>
+        </Route>
     </div>
+    
   );
 }
 
