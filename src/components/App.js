@@ -3,7 +3,7 @@ import Home from "./Home";
 import WindowsListings from "./WindowsListings"
 import LinuxListings from "./LinuxListings"
 import SnippetsListing from "./SnippetsListing"
-import {Route, Switch } from "react-router-dom";
+import {Route} from "react-router-dom";
 import NavBar from "./NavBar";
 import ItemForm from "./ItemForm";
 import Search from "./SearchBar"
@@ -16,7 +16,6 @@ function App() {
   const [snippets, setSnippets] = useState([])
   const [searchQuery, setSearchQuery] = useState("")
   const [selectedCategory, setSelectedCategory] = useState("All")
-
 
 useEffect(() => {
     fetch('http://localhost:5000/arrayOfShortCuts')
@@ -44,12 +43,10 @@ useEffect(() => {
     setSelectedCategory(e.target.value);
   }
 
-
   const macsArray = shortCuts.filter((shortCut) => shortCut.worksIn === "MacOS")
   const windowsArray = shortCuts.filter((shortCut) => shortCut.worksIn === "Windows")
   const linuxArray = shortCuts.filter((shortCut) => shortCut.worksIn === "Linux")
   // const filteredItemsToDisplay = macsArray.filter((mac) => searchState === "All" || mac.category === searchState)
-
 
   const snippetsToDisplay = snippets.filter((snippet) => 
     snippet.action.toLowerCase().includes(searchQuery.toLowerCase()))
@@ -74,37 +71,38 @@ useEffect(() => {
  
   return (
     <div className="">
-          <NavBar />
-          <Switch>
-            <Route exact path="/">
-              <Home />
-            </Route>
-            <Route path="/MacOS">
-            <FilterCategory handleCategoryChange={handleCategoryChange} />
-            <Search onChange={handleChange}/>
-              <MacListings macsArray={displayedMacTiles} />
-            </Route>
-            <Route path="/Windows">
-            <FilterCategory handleCategoryChange={handleCategoryChange} />
-            <Search onSearch={handleChange}/>
-             <WindowsListings windowsArray={displayedWindowsTiles} />
-            </Route>
-            <Route path="/Linux">
-            <FilterCategory handleCategoryChange={handleCategoryChange} />
-            <Search onSearch={handleChange}/>
-              <LinuxListings linuxArray={displayedLinuxTiles} />
-            </Route>
-            <Route path="/Snippets">
-            <img src="https://user-images.githubusercontent.com/106715328/183111625-1be41747-e763-4c31-a21e-1453c0465209.png" alt="snippets logo" className="snippets-identifier"/>
-            <FilterCategory id="filter-snippet" handleCategoryChange={handleCategoryChange} />
-            <Search id="search-snippet" onSearch={handleChange}/>
-              <SnippetsListing snippets={snippetsToDisplay}/>
-            </Route>
-            <Route className="form" path="/Form">
-              <ItemForm onAddShortCut={handleAddShortCut}/>
-            </Route>
-          </Switch>
+      <NavBar />
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/MacOS">
+        <FilterCategory handleCategoryChange={handleCategoryChange} />
+        <Search onChange={handleChange}/>
+          <MacListings macsArray={displayedMacTiles} />
+        </Route>
+        <Route path="/Windows">
+        <FilterCategory handleCategoryChange={handleCategoryChange} />
+        <Search onChange={handleChange}/>
+          <WindowsListings windowsArray={displayedWindowsTiles} />
+        </Route>
+        <Route path="/Linux">
+        <FilterCategory handleCategoryChange={handleCategoryChange} />
+        <Search onChange={handleChange}/>
+          <LinuxListings linuxArray={displayedLinuxTiles} />
+        </Route>
+        <Route path="/Snippets">
+        <img src="https://user-images.githubusercontent.com/106715328/183111625-1be41747-e763-4c31-a21e-1453c0465209.png" alt="snippets logo" className="snippets-identifier"/>
+        <FilterCategory id="filter-snippet" handleCategoryChange={handleCategoryChange} />
+        <Search id="search-snippet" onChange={handleChange}/>
+          <SnippetsListing snippets={snippetsToDisplay}/>
+        </Route>
+        <Route className="form" path="/Form">
+          <ItemForm onAddShortCut={handleAddShortCut}/>
+        </Route>
+      </Switch>
     </div>
+    
   );
 }
 

@@ -4,8 +4,6 @@ import MacCard from "./MacCard"
 
 function MacListings({macsArray, handleSearchChange, searchState}) {
     console.log(macsArray)
-    // const macsArrayParsed = macsArray.filter((mac) => 
-    //     mac.action.toLowerCase().includes(parseArray.toLowerCase()))
 
     return(
         <> 

@@ -2831,6 +2831,13 @@
       "category": "Integrated Terminal",
       "worksIn": "Linux",
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
+    },
+    {
+      "keyStroke": "test1",
+      "action": "action1",
+      "category": "Multi-cursor and selection",
+      "worksIn": "MacOS",
+      "id": "j4IjKRR"
     }
   ],
   "arrayOfSnippets": [
