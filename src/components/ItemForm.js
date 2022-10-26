@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button, Form, Message,Tab } from 'semantic-ui-react'
+import { Button, Form } from 'semantic-ui-react'
 
 function ItemForm({ onAddShortCut }) {
 
@@ -8,15 +8,15 @@ function ItemForm({ onAddShortCut }) {
   const [categoryState, setCategoryState] = useState("");
   const [worksInState, setWorksInState] = useState("");
 
-  const panes = [
-  { menuItem: 'Tab 1', render: () => <Tab.Pane>Tab 1 Content</Tab.Pane> },
-  { menuItem: 'Tab 2', render: () => <Tab.Pane>Tab 2 Content</Tab.Pane> },
-  { menuItem: 'Tab 3', render: () => <Tab.Pane>Tab 3 Content</Tab.Pane> },
-]
+//   const panes = [
+//   { menuItem: 'Tab 1', render: () => <Tab.Pane>Tab 1 Content</Tab.Pane> },
+//   { menuItem: 'Tab 2', render: () => <Tab.Pane>Tab 2 Content</Tab.Pane> },
+//   { menuItem: 'Tab 3', render: () => <Tab.Pane>Tab 3 Content</Tab.Pane> },
+// ]
 
-  function handleSubmitShortCuts(e) {
+  function handleSubmitShortCuts() {
     // console.log(keystrokeState, actionState, categoryState, worksInState)
-    e.preventDefault();
+    // e.preventDefault();
     fetch("http://localhost:5000/arrayOfShortCuts", {
       method: "POST",
       headers: {

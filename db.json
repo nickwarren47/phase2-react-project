@@ -2833,11 +2833,18 @@
       "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-Linux.pdf"
     },
     {
-      "keyStroke": "test1",
-      "action": "action1",
-      "category": "Multi-cursor and selection",
+      "keyStroke": "hello",
+      "action": "good stuff",
+      "category": "Rich languages editing",
       "worksIn": "MacOS",
-      "id": "j4IjKRR"
+      "id": "BOjKm8D"
+    },
+    {
+      "keyStroke": "hello",
+      "action": "ssddd",
+      "category": "Basic Editing",
+      "worksIn": "Windows",
+      "id": "M3rRNU4"
     }
   ],
   "arrayOfSnippets": [
