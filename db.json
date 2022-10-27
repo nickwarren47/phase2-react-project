@@ -2838,6 +2838,48 @@
       "category": "Multi-cursor and selection",
       "worksIn": "MacOS",
       "id": "j4IjKRR"
+    },
+    {
+      "keyStroke": "test1",
+      "action": "does someething",
+      "category": "General",
+      "worksIn": "MacOS",
+      "id": "EAbHqN5"
+    },
+    {
+      "keyStroke": "test1",
+      "action": "does something",
+      "category": "General",
+      "worksIn": "MacOS",
+      "id": "zajNG4V"
+    },
+    {
+      "keyStroke": "test2",
+      "action": "does another thing",
+      "category": "Basic Editing",
+      "worksIn": "MacOS",
+      "id": "Ch-bXsr"
+    },
+    {
+      "keyStroke": "Garret!",
+      "action": "tells u to refresh from window",
+      "category": "General",
+      "worksIn": "Windows",
+      "id": "BtmitXX"
+    },
+    {
+      "keyStroke": "Nick",
+      "action": "test action",
+      "category": "General",
+      "worksIn": "Windows",
+      "id": "ZN9fUtu"
+    },
+    {
+      "keyStroke": "tommy",
+      "action": "testing",
+      "category": "General",
+      "worksIn": "Linux",
+      "id": "Wa3YM_y"
     }
   ],
   "arrayOfSnippets": [

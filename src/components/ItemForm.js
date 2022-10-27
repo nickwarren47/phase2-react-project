@@ -8,15 +8,16 @@ function ItemForm({ onAddShortCut }) {
   const [categoryState, setCategoryState] = useState("");
   const [worksInState, setWorksInState] = useState("");
 
-  const panes = [
-  { menuItem: 'Tab 1', render: () => <Tab.Pane>Tab 1 Content</Tab.Pane> },
-  { menuItem: 'Tab 2', render: () => <Tab.Pane>Tab 2 Content</Tab.Pane> },
-  { menuItem: 'Tab 3', render: () => <Tab.Pane>Tab 3 Content</Tab.Pane> },
-]
+//   const panes = [
+//   { menuItem: 'Tab 1', render: () => <Tab.Pane>Tab 1 Content</Tab.Pane> },
+//   { menuItem: 'Tab 2', render: () => <Tab.Pane>Tab 2 Content</Tab.Pane> },
+//   { menuItem: 'Tab 3', render: () => <Tab.Pane>Tab 3 Content</Tab.Pane> },
+// ]
 
   function handleSubmitShortCuts(e) {
     // console.log(keystrokeState, actionState, categoryState, worksInState)
     e.preventDefault();
+    alert("Thanks for contributing to Coder's Keys!")
     fetch("http://localhost:5000/arrayOfShortCuts", {
       method: "POST",
       headers: {
@@ -30,24 +31,9 @@ function ItemForm({ onAddShortCut }) {
       }),
     })
       .then((res) => res.json())
-      .then((newShortCut) => onAddShortCut(newShortCut))
-      .then(() => {
-        setKeyStrokeState("")
-        setActionState("")
-        setCategoryState("")
-        setWorksInState("")
-      })
+      .then((newShortCut) => onAddShortCut(newShortCut)) 
+      window.location.reload(); //reset form
   }
-
-//   <Form success>
-//   <Form.Input label='Email' placeholder='joe@schmoe.com' />
-//   <Message
-//     success
-//     header='Form Completed'
-//     content="You're all signed up for the newsletter"
-//   />
-//   <Button>Submit</Button>
-// </Form>
 
   return (
     <div className="new-shortCut-form">
